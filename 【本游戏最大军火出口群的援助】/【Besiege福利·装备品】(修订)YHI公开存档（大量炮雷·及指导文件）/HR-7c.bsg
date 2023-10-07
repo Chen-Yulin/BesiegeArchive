@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="HR-7C">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="56.06137" z="2.384186E-07" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <String key="modLoader-machineData">MachineData
+</String>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="23" guid="bc578972-7dbe-4bb5-be4a-0047f1271db1">
+            <Transform>
+                <Position x="-1.20001" y="-0.1012039" z="-0.001747957" />
+                <Rotation x="0.706305" y="0.0004337531" z="0.7079074" w="-0.0004346101" />
+                <Scale x="0.05000132" y="0.2000094" z="0.2000061" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="59" guid="817740c5-ba84-41dd-b94b-a6b1ab14da3a">
+            <Transform>
+                <Position x="-0.0006097406" y="0.3992424" z="0.000977397" />
+                <Rotation x="-0.4998683" y="0.5001308" z="-0.500829" w="-0.4991706" />
+                <Scale x="0.1000028" y="0.5000121" z="0.50001" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-launch">Y</StringArray>
+                <Single key="bmt-duration">10</Single>
+                <Single key="bmt-strength">16</Single>
+                <Single key="bmt-charge">1.5</Single>
+                <Color key="bmt-colour">
+                    <R>1</R>
+                    <G>0.3019608</G>
+                    <B>0</B>
+                </Color>
+            </Data>
+        </Block>
+        <Block id="27" guid="2de28404-9f41-4b38-92f4-5854052dc674">
+            <Transform>
+                <Position x="-0.2000116" y="-0.1000137" z="0.0005233655" />
+                <Rotation x="0.7079062" y="0.001788229" z="-0.706302" w="0.001790451" />
+                <Scale x="0.1000032" y="0.3000183" z="0.6000177" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-detach">Backslash</StringArray>
+                <Boolean key="bmt-grab-static">False</Boolean>
+                <Boolean key="bmt-grab-static-only">False</Boolean>
+                <Boolean key="bmt-auto-grab">True</Boolean>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="zuoquan">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="-1.050532E-06" y="0.4928846" z="4.768372E-07" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods" />
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="3cb3a2ed-268a-430f-81e2-1cc7a07133f9">
+            <Transform>
+                <Position x="0" y="3.31" z="-1.3" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1</Single>
+                <Single key="bmt-y-scale">1</Single>
+                <Single key="bmt-z-scale">1</Single>
+            </Data>
+        </Block>
+        <Block id="58" guid="1fb476bf-70c7-46be-985e-96fd3a932776">
+            <Transform>
+                <Position x="0.3049106" y="3.16" z="0.6611231" />
+                <Rotation x="0.7071065" y="8.012309E-08" z="1.601282E-07" w="-0.7071072" />
+                <Scale x="0.2515724" y="0.2202898" z="0.3767045" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">F</StringArray>
+                <Integer key="bmt-mode">2</Integer>
+                <Boolean key="bmt-advanced-options">False</Boolean>
+                <Single key="bmt-distance">1</Single>
+                <Single key="bmt-height">10</Single>
+                <Single key="bmt-rotation">0</Single>
+                <Single key="bmt-pitch">10</Single>
+                <Single key="bmt-roll">0</Single>
+                <Single key="bmt-yaw">0</Single>
+                <Single key="bmt-smooth">0.75</Single>
+                <Single key="bmt-fov">60</Single>
+                <Single key="bmt-predict">2</Single>
+                <Boolean key="bmt-scale">True</Boolean>
+                <Single key="bmt-x-scale">0.2515724</Single>
+                <Single key="bmt-y-scale">0.2202898</Single>
+                <Single key="bmt-z-scale">0.3767045</Single>
+                <Boolean key="bmt-fighterHud">False</Boolean>
+                <Boolean key="bmt-hudFlip">False</Boolean>
+                <Boolean key="bmt-hudTimer">True</Boolean>
+                <Single key="bmt-hudDistance">0.5</Single>
+                <StringArray key="bmt-engineForward">LeftControl</StringArray>
+                <StringArray key="bmt-engineReverse">L</StringArray>
+                <StringArray key="bmt-throttleForward">X</StringArray>
+                <StringArray key="bmt-throttleReverse">Z</StringArray>
+            </Data>
+        </Block>
+        <Block id="32" guid="dd5af260-bf7a-467b-8cb4-c45700901abc">
+            <Transform>
+                <Position x="7.192227E-08" y="1.688352" z="-0.8600001" />
+                <Rotation x="0.5000001" y="0.4999998" z="-0.5000002" w="0.4999999" />
+                <Scale x="0.1" y="1.346477" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="bmt-scale">True</Boolean>
+                <Single key="bmt-x-scale">0.1</Single>
+                <Single key="bmt-y-scale">1.346477</Single>
+                <Single key="bmt-z-scale">1</Single>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

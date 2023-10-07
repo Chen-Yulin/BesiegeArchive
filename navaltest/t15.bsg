@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="t15">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="5.05" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods">24db7500-6caa-471c-8ba6-c43c0be5fd1d~L~0.1.1~WW2Naval</StringArray>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="e42126a8-3a5d-492f-90d6-4297fdc8523e">
+            <Transform>
+                <Position x="0" y="0" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="1001" guid="4688eb79-4644-4dd2-8bd9-9588e2ba0522" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="2">
+            <Transform>
+                <Position x="-2.557954E-13" y="0.499999" z="9.536743E-07" />
+                <Rotation x="-0.7071068" y="-8.09454E-07" z="1.48831E-07" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-TrackCannon">T</StringArray>
+                <StringArray key="bmt-SwitchTrackingCannon">RightShift</StringArray>
+                <Single key="bmt-FCSize">1</Single>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1000" guid="3c8231bf-2e5b-42d9-8540-7f09bc0943e1" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="1">
+            <Transform>
+                <Position x="-4.36079E-08" y="0.08717012" z="1.496193" />
+                <Rotation x="-0.04362651" y="-2.080274E-08" z="2.340308E-08" w="0.9990479" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-Fire">C</StringArray>
+                <StringArray key="bmt-SwitchCannonType">R</StringArray>
+                <Single key="bmt-Caliber">406</Single>
+                <Boolean key="bmt-TrackCannon">False</Boolean>
+                <Boolean key="bmt-FireControl">True</Boolean>
+                <String key="bmt-GunGroup">g0</String>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="57" guid="7c61d5c6-610f-4509-a404-42ff783bdffb">
+            <Transform>
+                <Position x="0" y="0" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="24" guid="b650d793-1c88-4f91-9a34-5ede49e01bef">
+            <Transform>
+                <Position x="0" y="-0.5" z="0" />
+                <Rotation x="0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="28" guid="2ea5a48f-9f48-4b6a-8ba6-a1e91a11b2b1">
+            <Transform>
+                <Position x="6.743496E-07" y="-4.768372E-07" z="0.5" />
+                <Rotation x="4.563266E-08" y="1.654184E-07" z="-0.3827946" w="0.9238335" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-left">LeftArrow</StringArray>
+                <StringArray key="bmt-right">RightArrow</StringArray>
+                <Boolean key="bmt-autoReturn">True</Boolean>
+                <Single key="bmt-rotation-speed">1</Single>
+                <Boolean key="bmt-uselimits">True</Boolean>
+                <SingleArray key="bmt-limits">
+                    <Single>40</Single>
+                    <Single>40</Single>
+                </SingleArray>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

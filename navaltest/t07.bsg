@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="t07">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="5.05" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods">24db7500-6caa-471c-8ba6-c43c0be5fd1d~L~0.5.15~WW2Naval</StringArray>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="8b3d803b-2e84-4f78-afe4-8c125b2369b8">
+            <Transform>
+                <Position x="0" y="0.5" z="-1.5" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="22" guid="feb07b14-bd21-406a-a4f0-612457566d28">
+            <Transform>
+                <Position x="0" y="1" z="0" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Single key="bmt-speed">1</Single>
+                <Single key="bmt-acceleration">Infinity</Single>
+                <Single key="bmt-WW2Thickness">20</Single>
+                <Single key="bmt-WW2Depth">3</Single>
+                <Single key="bmt-WW2DepthOffset">1</Single>
+                <String key="bmt-GunGroup">g0</String>
+                <Boolean key="flipped">False</Boolean>
+                <Boolean key="bmt-uselimits">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="57" guid="e13fc465-4411-4802-990b-bce89e6f42d3">
+            <Transform>
+                <Position x="0" y="0.5" z="-1.5" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1000" guid="3daf02f7-d610-4fe9-afdb-2e16016400f4" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="1">
+            <Transform>
+                <Position x="0" y="2" z="1.5" />
+                <Rotation x="5.960464E-08" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-Fire">C</StringArray>
+                <StringArray key="bmt-SwitchCannonType">R</StringArray>
+                <Single key="bmt-Caliber">291.7983</Single>
+                <Boolean key="bmt-TrackCannon">False</Boolean>
+                <Boolean key="bmt-FireControl">True</Boolean>
+                <String key="bmt-GunGroup">g0</String>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1003" guid="a05f3528-93bc-4772-8e56-da43c2caf1e9" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="4">
+            <Transform>
+                <Position x="0" y="2" z="0" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-ActiveGunner">None</StringArray>
+                <StringArray key="bmt-FireKey">None</StringArray>
+                <StringArray key="bmt-LeftKey">
+                    <String>G</String>
+                    <String>Message=l</String>
+                </StringArray>
+                <StringArray key="bmt-RightKey">
+                    <String>J</String>
+                    <String>Message=r</String>
+                </StringArray>
+                <StringArray key="bmt-UpKey">
+                    <String>H</String>
+                    <String>Message=y</String>
+                </StringArray>
+                <StringArray key="bmt-DownKey">
+                    <String>Y</String>
+                    <String>Message=h</String>
+                </StringArray>
+                <Single key="bmt-OrienFaultTolerance">1</Single>
+                <Single key="bmt-ElevationFaultTolerance">0.3</Single>
+                <String key="bmt-GunGroup">g0</String>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="63" guid="f163ad56-e605-4354-a818-2e72300bf508">
+            <Transform>
+                <Position x="-4.5" y="0.5" z="32" />
+                <Rotation x="0" y="0.7071068" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Single key="bmt-WW2Thickness">20</Single>
+                <Integer key="length">3</Integer>
+            </Data>
+        </Block>
+        <Block id="1001" guid="53160516-d40e-47a4-abdb-26a2d48c72dc" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="2">
+            <Transform>
+                <Position x="0" y="0" z="-2" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-TrackCannon">T</StringArray>
+                <StringArray key="bmt-SwitchTrackingCannon">RightShift</StringArray>
+                <Single key="bmt-FCSize">1.210525</Single>
+                <Single key="bmt-TurrentHeight">0.5</Single>
+                <StringArray key="bmt-WW2Lock">X</StringArray>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="28" guid="9aa8baf8-3261-4acc-98e9-4196698e9188">
+            <Transform>
+                <Position x="-3.351522E-08" y="1" z="-1.728942E-07" />
+                <Rotation x="-1.159474E-07" y="0.953683" z="5.684391E-08" w="0.3008136" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-left">
+                    <String>G</String>
+                    <String>Message=l</String>
+                </StringArray>
+                <StringArray key="bmt-right">
+                    <String>J</String>
+                    <String>Message=r</String>
+                </StringArray>
+                <Boolean key="bmt-autoReturn">False</Boolean>
+                <Single key="bmt-rotation-speed">0.2</Single>
+                <Boolean key="bmt-uselimits">False</Boolean>
+                <SingleArray key="bmt-limits">
+                    <Single>40</Single>
+                    <Single>180</Single>
+                </SingleArray>
+                <Boolean key="flipped">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="28" guid="b949e8d7-924d-42eb-8425-01b7ad997243">
+            <Transform>
+                <Position x="6.837581E-08" y="1" z="-1.407681E-07" />
+                <Rotation x="1.159474E-07" y="0.953683" z="5.684394E-08" w="-0.3008136" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-left">
+                    <String>G</String>
+                    <String>Message=l</String>
+                </StringArray>
+                <StringArray key="bmt-right">
+                    <String>J</String>
+                    <String>Message=r</String>
+                </StringArray>
+                <Boolean key="bmt-autoReturn">False</Boolean>
+                <Single key="bmt-rotation-speed">0.2</Single>
+                <Boolean key="bmt-uselimits">False</Boolean>
+                <SingleArray key="bmt-limits">
+                    <Single>40</Single>
+                    <Single>180</Single>
+                </SingleArray>
+                <Boolean key="flipped">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="28" guid="c11d3318-3d82-4d80-978e-0b058efe2e24">
+            <Transform>
+                <Position x="0" y="1.999999" z="0.5" />
+                <Rotation x="-4.214685E-08" y="4.214685E-08" z="-0.7071068" w="-0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-left">
+                    <String>H</String>
+                    <String>Message=y</String>
+                </StringArray>
+                <StringArray key="bmt-right">
+                    <String>Y</String>
+                    <String>Message=h</String>
+                </StringArray>
+                <Boolean key="bmt-autoReturn">False</Boolean>
+                <Single key="bmt-rotation-speed">0.1</Single>
+                <Boolean key="bmt-uselimits">True</Boolean>
+                <SingleArray key="bmt-limits">
+                    <Single>40</Single>
+                    <Single>0</Single>
+                </SingleArray>
+                <Boolean key="flipped">True</Boolean>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

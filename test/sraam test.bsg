@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="sraam test">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="23.55" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods">95e9c048-7ee6-4b61-85d2-d6a637ee9a30~L~0.5.1~ModernAirCombat</StringArray>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="2bbae8a9-9fa0-46da-b1a5-2dc272492f78">
+            <Transform>
+                <Position x="50.25" y="49.85355" z="-399.75" />
+                <Rotation x="0.1465317" y="-0.3536384" z="-0.3536383" w="0.8534685" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="bmt-AdHud">False</Boolean>
+                <StringArray key="bmt-AdHudEnableKey">None</StringArray>
+                <Single key="bmt-AdHudAlpha">0.5</Single>
+                <Single key="bmt-AdHudTextAlpha">0.8</Single>
+                <Single key="bmt-AdSEVolume">0.5</Single>
+                <Color key="bmt-AdHudColor">
+                    <R>0</R>
+                    <G>1</G>
+                    <B>0.3</B>
+                </Color>
+                <Color key="bmt-AdHudAlertColor">
+                    <R>1</R>
+                    <G>0.22</G>
+                    <B>0.12</B>
+                </Color>
+            </Data>
+        </Block>
+        <Block id="1000" guid="f406be5b-4d29-499d-b1aa-9890086db734" modId="95e9c048-7ee6-4b61-85d2-d6a637ee9a30" localId="1">
+            <Transform>
+                <Position x="0" y="0.5" z="0" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Integer key="bmt-Missile Type">0</Integer>
+                <StringArray key="bmt-launch">X</StringArray>
+                <Single key="bmt-detection delay">0.2</Single>
+                <Single key="bmt-launch delay">0.1</Single>
+                <Single key="bmt-PF range">10</Single>
+                <Single key="bmt-Maximum G-value">10</Single>
+                <Single key="bmt-Thrust">650</Single>
+                <Single key="bmt-Thrust Duration">3.5</Single>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="11" guid="74d95575-550b-4d96-b8ec-e269f5aa1924">
+            <Transform>
+                <Position x="50" y="49.5" z="-400" />
+                <Rotation x="-0.3534684" y="0.3534683" z="0.1463617" w="0.8536385" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-shoot">X</StringArray>
+                <Single key="bmt-strength">15</Single>
+            </Data>
+        </Block>
+        <Block id="1005" guid="34f9bb54-8011-49dd-874c-d003459d25ea" modId="95e9c048-7ee6-4b61-85d2-d6a637ee9a30" localId="6">
+            <Transform>
+                <Position x="49.89636" y="49.85355" z="-399.3965" />
+                <Rotation x="-0.1464465" y="-0.3536736" z="0.3534333" w="0.8535534" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Integer key="bmt-Type">0</Integer>
+                <StringArray key="bmt-Launch Flare">C</StringArray>
+                <Single key="bmt-release interval">0.5</Single>
+                <Single key="bmt-Group Size">4</Single>
+                <Boolean key="flipped">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="1005" guid="e7f2ab70-2629-40d0-b6bf-09670f7f7d5c" modId="95e9c048-7ee6-4b61-85d2-d6a637ee9a30" localId="6">
+            <Transform>
+                <Position x="50.60364" y="49.85355" z="-400.1035" />
+                <Rotation x="-0.3534333" y="0.8535534" z="-0.1464465" w="0.3536736" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Integer key="bmt-Type">0</Integer>
+                <StringArray key="bmt-Launch Flare">C</StringArray>
+                <Single key="bmt-release interval">0.5</Single>
+                <Single key="bmt-Group Size">4</Single>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

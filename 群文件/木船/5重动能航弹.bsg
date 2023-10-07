@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="5重动能航弹">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="0.4860001" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods" />
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="17d0cbf4-19fd-4345-a963-19b6388b3739">
+            <Transform>
+                <Position x="0" y="4.768372E-07" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1</Single>
+                <Single key="bmt-y-scale">1</Single>
+                <Single key="bmt-z-scale">1</Single>
+            </Data>
+        </Block>
+        <Block id="63" guid="29664ad9-560f-4f87-8bc3-835b46329b4c">
+            <Transform>
+                <Position x="-1.192093E-07" y="0.8565674" z="0.4874291" />
+                <Rotation x="0.7072766" y="0.706937" z="-3.278346E-07" w="-8.690684E-08" />
+                <Scale x="0.3" y="0.3" z="0.3" />
+            </Transform>
+            <Settings>
+                <Skin name="Al-Shadow" id="950405838" />
+            </Settings>
+            <Data>
+                <Boolean key="bmt-scale">True</Boolean>
+                <Single key="bmt-x-scale">0.3</Single>
+                <Single key="bmt-y-scale">0.3</Single>
+                <Single key="bmt-z-scale">0.3</Single>
+                <Integer key="length">3</Integer>
+            </Data>
+        </Block>
+        <Block id="59" guid="8a210c3a-1a06-4791-bfa4-026d35d899d5">
+            <Transform>
+                <Position x="-2.086163E-07" y="0.7065678" z="-0.3125654" />
+                <Rotation x="-1.587522E-07" y="0.7071067" z="0.7071068" w="-3.944251E-07" />
+                <Scale x="0.3" y="0.3" z="0.3" />
+            </Transform>
+            <Settings>
+                <Skin name="Al-Shadow" id="950405838" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-launch">Alpha1</StringArray>
+                <Single key="bmt-duration">0.01</Single>
+                <Single key="bmt-strength">100000</Single>
+                <Single key="bmt-charge">0</Single>
+                <Color key="bmt-colour">
+                    <R>1</R>
+                    <G>0.2980392</G>
+                    <B>0</B>
+                </Color>
+                <Boolean key="bmt-scale">True</Boolean>
+                <Single key="bmt-x-scale">0.3</Single>
+                <Single key="bmt-y-scale">0.3</Single>
+                <Single key="bmt-z-scale">0.3</Single>
+            </Data>
+        </Block>
+        <Block id="65" guid="dbd705d0-d2f3-4a67-9c93-4a7712d122d6">
+            <Transform>
+                <Position x="-2.980232E-08" y="0.8065681" z="0.4874376" />
+                <Rotation x="0.7071065" y="2.121372E-07" z="-5.714448E-07" w="-0.7071071" />
+                <Scale x="0.1" y="0.1" z="0.1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">B</StringArray>
+                <StringArray key="bmt-emulate">Alpha1</StringArray>
+                <Boolean key="bmt-non-automatic">True</Boolean>
+                <Boolean key="bmt-hold-to-activate">False</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Boolean key="bmt-ignore-static">True</Boolean>
+                <Single key="bmt-distance">0.1</Single>
+                <Single key="bmt-radius">0.1</Single>
+                <Boolean key="bmt-scale">True</Boolean>
+                <Single key="bmt-x-scale">0.1</Single>
+                <Single key="bmt-y-scale">0.1</Single>
+                <Single key="bmt-z-scale">0.1</Single>
+            </Data>
+        </Block>
+        <Block id="12" guid="a3a4a5b2-1edd-4b4b-90f7-de88d16dea5d">
+            <Transform>
+                <Position x="-8.524778E-07" y="0.856567" z="0.587429" />
+                <Rotation x="0.0002400577" y="1" z="-1.703617E-07" w="-2.932666E-07" />
+                <Scale x="0.3" y="0.3" z="0.3" />
+            </Transform>
+            <Settings>
+                <Skin name="Al-Shadow" id="950405838" />
+            </Settings>
+            <Data>
+                <Single key="bmt-mass">3.3</Single>
+                <Boolean key="bmt-mass-from-size">False</Boolean>
+                <Boolean key="bmt-scale">True</Boolean>
+                <Single key="bmt-x-scale">0.3</Single>
+                <Single key="bmt-y-scale">0.3</Single>
+                <Single key="bmt-z-scale">0.3</Single>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

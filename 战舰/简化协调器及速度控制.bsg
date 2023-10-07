@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="简化协调器及速度控制">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="-13.59778" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods" />
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="65" guid="609fe7b2-49e1-4c3a-a826-946a95ecb21d">
+            <Transform>
+                <Position x="3.828354" y="19.15433" z="-0.1047678" />
+                <Rotation x="3.105E-05" y="0.7071062" z="0.7071074" w="-2.673266E-05" />
+                <Scale x="0.0693" y="0.1693" z="0.0693" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">BackQuote</StringArray>
+                <StringArray key="bmt-emulate">
+                    <String>Joystick1Button0</String>
+                    <String>Message=左侧</String>
+                    <String>Use=True</String>
+                </StringArray>
+                <Boolean key="bmt-non-automatic">True</Boolean>
+                <Boolean key="bmt-hold-to-activate">False</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Boolean key="bmt-ignore-static">True</Boolean>
+                <Single key="bmt-distance">0.1</Single>
+                <Single key="bmt-radius">0.18</Single>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+        <Block id="65" guid="4a69eae8-9202-492a-a9a4-56de3bda6c19">
+            <Transform>
+                <Position x="3.828377" y="19.15433" z="0.1047926" />
+                <Rotation x="-0.7071074" y="3.081561E-05" z="2.637504E-05" w="0.7071062" />
+                <Scale x="0.0693" y="0.1693" z="0.0693" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">BackQuote</StringArray>
+                <StringArray key="bmt-emulate">
+                    <String>Joystick2Button3</String>
+                    <String>Message=右侧</String>
+                    <String>Use=True</String>
+                </StringArray>
+                <Boolean key="bmt-non-automatic">True</Boolean>
+                <Boolean key="bmt-hold-to-activate">False</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Boolean key="bmt-ignore-static">True</Boolean>
+                <Single key="bmt-distance">0.1</Single>
+                <Single key="bmt-radius">0.18</Single>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+        <Block id="65" guid="8203bec9-2b7e-410d-8f67-3fc2f6f356d4">
+            <Transform>
+                <Position x="3.481743" y="19.64253" z="-0.1732187" />
+                <Rotation x="-0.2332675" y="-0.8561704" z="-0.2788757" w="0.3671334" />
+                <Scale x="0.0693" y="0.0693" z="0.0693" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">BackQuote</StringArray>
+                <StringArray key="bmt-emulate">R</StringArray>
+                <Boolean key="bmt-non-automatic">True</Boolean>
+                <Boolean key="bmt-hold-to-activate">False</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Boolean key="bmt-ignore-static">True</Boolean>
+                <Single key="bmt-distance">0.6</Single>
+                <Single key="bmt-radius">0.03</Single>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+        <Block id="63" guid="6b35dca1-3929-46de-829f-503a6b1e03c6">
+            <Transform>
+                <Position x="3.828362" y="18.47475" z="-8.583069E-06" />
+                <Rotation x="0.653324" y="-0.2704923" z="-0.2704935" w="-0.6533261" />
+                <Scale x="0.1200001" y="0.1200002" z="0.5549482" />
+            </Transform>
+            <Data>
+                <String key="bmt-TransformHolder" />
+                <Integer key="length">3</Integer>
+            </Data>
+        </Block>
+        <Block id="28" guid="6749c4b0-b98f-45e9-ad31-05ff938e87c6">
+            <Transform>
+                <Position x="3.828369" y="19.57547" z="-8.583069E-06" />
+                <Rotation x="5.774366E-07" y="0.7071713" z="1.674053E-06" w="-0.7070423" />
+                <Scale x="0.5085077" y="0.32325" z="0.3302606" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-left">R</StringArray>
+                <StringArray key="bmt-right">Y</StringArray>
+                <Boolean key="bmt-autoReturn">False</Boolean>
+                <Single key="bmt-rotation-speed">0.15</Single>
+                <Boolean key="bmt-uselimits">True</Boolean>
+                <SingleArray key="bmt-limits">
+                    <Single>145</Single>
+                    <Single>145</Single>
+                </SingleArray>
+                <String key="bmt-TransformHolder" />
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="65" guid="203b7f7b-cc34-4ce6-a828-476b2209771f">
+            <Transform>
+                <Position x="3.798004" y="19.56117" z="0.04338074" />
+                <Rotation x="0.6743644" y="0.2126772" z="0.2126817" w="-0.6743646" />
+                <Scale x="0.0693" y="0.0193" z="0.0693" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">
+                    <String>Joystick1Button0</String>
+                    <String>Message=左侧</String>
+                    <String>Use=True</String>
+                </StringArray>
+                <StringArray key="bmt-emulate">R</StringArray>
+                <Boolean key="bmt-non-automatic">True</Boolean>
+                <Boolean key="bmt-hold-to-activate">True</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Boolean key="bmt-ignore-static">True</Boolean>
+                <Single key="bmt-distance">0.15</Single>
+                <Single key="bmt-radius">0.24</Single>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+        <Block id="0" guid="6069323c-c872-4f9b-b710-ccc0050a0705">
+            <Transform>
+                <Position x="2.191476" y="19.04857" z="-1.907349E-06" />
+                <Rotation x="-0.7071067" y="-4.702777E-08" z="4.702775E-08" w="-0.7071069" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="Al-Thunder" id="1486627734" />
+            </Settings>
+            <Data>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+        <Block id="28" guid="ce080f2c-9010-4b9e-b17b-0c39c1fd5e43">
+            <Transform>
+                <Position x="3.828362" y="19.20924" z="-8.583069E-06" />
+                <Rotation x="3.027826E-06" y="0.7068412" z="-2.532758E-06" w="-0.7073723" />
+                <Scale x="0.3465" y="0.32325" z="0.6465" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-left">F</StringArray>
+                <StringArray key="bmt-right">H</StringArray>
+                <Boolean key="bmt-autoReturn">False</Boolean>
+                <Single key="bmt-rotation-speed">0.15</Single>
+                <Boolean key="bmt-uselimits">False</Boolean>
+                <SingleArray key="bmt-limits">
+                    <Single>145</Single>
+                    <Single>145</Single>
+                </SingleArray>
+                <String key="bmt-TransformHolder" />
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="65" guid="d38fde2c-c6bb-4e68-8f67-e6c3692900d9">
+            <Transform>
+                <Position x="3.481743" y="19.64253" z="0.1732016" />
+                <Rotation x="-0.2788737" y="-0.3671328" z="-0.2332683" w="0.856171" />
+                <Scale x="0.0693" y="0.0693" z="0.0693" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">BackQuote</StringArray>
+                <StringArray key="bmt-emulate">Y</StringArray>
+                <Boolean key="bmt-non-automatic">True</Boolean>
+                <Boolean key="bmt-hold-to-activate">False</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Boolean key="bmt-ignore-static">True</Boolean>
+                <Single key="bmt-distance">0.6</Single>
+                <Single key="bmt-radius">0.03</Single>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+        <Block id="65" guid="0b17bb2f-93c3-4e0c-b8e6-5f468fd62013">
+            <Transform>
+                <Position x="4.174981" y="18.79457" z="-0.1732187" />
+                <Rotation x="-0.8561707" y="0.2332681" z="-0.3671331" w="-0.2788747" />
+                <Scale x="0.0693" y="0.0693" z="0.0693" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">BackQuote</StringArray>
+                <StringArray key="bmt-emulate">N</StringArray>
+                <Boolean key="bmt-non-automatic">True</Boolean>
+                <Boolean key="bmt-hold-to-activate">False</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Boolean key="bmt-ignore-static">True</Boolean>
+                <Single key="bmt-distance">0.6</Single>
+                <Single key="bmt-radius">0.03</Single>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+        <Block id="65" guid="0ce68eec-ff0c-4bc9-8570-8c6b5e12adc6">
+            <Transform>
+                <Position x="4.174981" y="18.79457" z="0.1732016" />
+                <Rotation x="-0.3671331" y="0.2788747" z="-0.8561707" w="-0.2332681" />
+                <Scale x="0.0693" y="0.0693" z="0.0693" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">BackQuote</StringArray>
+                <StringArray key="bmt-emulate">V</StringArray>
+                <Boolean key="bmt-non-automatic">True</Boolean>
+                <Boolean key="bmt-hold-to-activate">False</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Boolean key="bmt-ignore-static">True</Boolean>
+                <Single key="bmt-distance">0.6</Single>
+                <Single key="bmt-radius">0.03</Single>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+        <Block id="28" guid="1c94eadd-db01-4c64-8706-388249ddb215">
+            <Transform>
+                <Position x="3.828355" y="18.85122" z="-8.583069E-06" />
+                <Rotation x="0.7071713" y="-1.534739E-06" z="0.7070423" w="1.028979E-06" />
+                <Scale x="0.5085077" y="0.32325" z="0.3302606" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-left">V</StringArray>
+                <StringArray key="bmt-right">N</StringArray>
+                <Boolean key="bmt-autoReturn">False</Boolean>
+                <Single key="bmt-rotation-speed">0.15</Single>
+                <Boolean key="bmt-uselimits">True</Boolean>
+                <SingleArray key="bmt-limits">
+                    <Single>145</Single>
+                    <Single>145</Single>
+                </SingleArray>
+                <String key="bmt-TransformHolder" />
+                <Boolean key="flipped">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="32" guid="74c21fab-e2d8-41c4-a14d-bb500c7718e6">
+            <Transform>
+                <Position x="3.186038" y="19.14501" z="8.392334E-05" />
+                <Rotation x="-0.4998139" y="0.50019" z="0.5001855" w="0.4998104" />
+                <Scale x="0.3563994" y="0.4507151" z="0.3965" />
+            </Transform>
+            <Data>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+        <Block id="65" guid="0dbf0094-ae63-49ec-b2a7-3392a59dfdc9">
+            <Transform>
+                <Position x="3.798004" y="19.56117" z="-0.04339695" />
+                <Rotation x="0.2126818" y="0.6743646" z="0.6743644" w="-0.2126773" />
+                <Scale x="0.0693" y="0.0193" z="0.0693" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">
+                    <String>Joystick1Button0</String>
+                    <String>Message=右侧</String>
+                    <String>Use=True</String>
+                </StringArray>
+                <StringArray key="bmt-emulate">Y</StringArray>
+                <Boolean key="bmt-non-automatic">True</Boolean>
+                <Boolean key="bmt-hold-to-activate">True</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Boolean key="bmt-ignore-static">True</Boolean>
+                <Single key="bmt-distance">0.15</Single>
+                <Single key="bmt-radius">0.24</Single>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+        <Block id="65" guid="e433f3ae-3526-4c01-980c-f3eb572f08a9">
+            <Transform>
+                <Position x="3.858785" y="18.85729" z="0.04334068" />
+                <Rotation x="0.213182" y="-0.6741993" z="0.6742099" w="0.2131897" />
+                <Scale x="0.0693" y="0.0193" z="0.0693" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">
+                    <String>Joystick1Button0</String>
+                    <String>Message=左侧</String>
+                    <String>Use=True</String>
+                </StringArray>
+                <StringArray key="bmt-emulate">N</StringArray>
+                <Boolean key="bmt-non-automatic">True</Boolean>
+                <Boolean key="bmt-hold-to-activate">True</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Boolean key="bmt-ignore-static">True</Boolean>
+                <Single key="bmt-distance">0.15</Single>
+                <Single key="bmt-radius">0.24</Single>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+        <Block id="65" guid="b4e6c640-bf61-450a-8924-3a0d1874e1f4">
+            <Transform>
+                <Position x="3.858655" y="18.85729" z="-0.04343605" />
+                <Rotation x="0.6745188" y="-0.2121735" z="0.2121724" w="0.6745293" />
+                <Scale x="0.0693" y="0.0193" z="0.0693" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">
+                    <String>Joystick1Button0</String>
+                    <String>Message=右侧</String>
+                    <String>Use=True</String>
+                </StringArray>
+                <StringArray key="bmt-emulate">V</StringArray>
+                <Boolean key="bmt-non-automatic">True</Boolean>
+                <Boolean key="bmt-hold-to-activate">True</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Boolean key="bmt-ignore-static">True</Boolean>
+                <Single key="bmt-distance">0.15</Single>
+                <Single key="bmt-radius">0.24</Single>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+        <Block id="28" guid="d163b274-9557-41e3-bd94-1695724cb619">
+            <Transform>
+                <Position x="4.206441" y="18.28278" z="-3.910065E-05" />
+                <Rotation x="1.503838E-06" y="0.7071713" z="9.362502E-07" w="-0.7070423" />
+                <Scale x="0.07688507" y="0.04742681" z="0.2964998" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-left">UpArrow</StringArray>
+                <StringArray key="bmt-right">DownArrow</StringArray>
+                <Boolean key="bmt-autoReturn">False</Boolean>
+                <Single key="bmt-rotation-speed">0.2</Single>
+                <Boolean key="bmt-uselimits">True</Boolean>
+                <SingleArray key="bmt-limits">
+                    <Single>30</Single>
+                    <Single>10</Single>
+                </SingleArray>
+                <String key="bmt-TransformHolder" />
+                <Boolean key="flipped">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="65" guid="397bbfca-09b5-4a09-bbd5-ed83a35d526b">
+            <Transform>
+                <Position x="3.966804" y="18.33287" z="0.09195614" />
+                <Rotation x="2.345415E-05" y="0.5663288" z="-3.308626E-05" w="-0.8241794" />
+                <Scale x="0.0693" y="0.0193" z="0.0693" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">BackQuote</StringArray>
+                <StringArray key="bmt-emulate">
+                    <String>Joystick2Button9</String>
+                    <String>Message=QJ1</String>
+                    <String>Use=True</String>
+                </StringArray>
+                <Boolean key="bmt-non-automatic">False</Boolean>
+                <Boolean key="bmt-hold-to-activate">False</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Boolean key="bmt-ignore-static">True</Boolean>
+                <Single key="bmt-distance">0.03</Single>
+                <Single key="bmt-radius">0.05</Single>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+        <Block id="65" guid="34a9b3ff-0117-4207-bd38-02151290d228">
+            <Transform>
+                <Position x="4.015687" y="18.33287" z="0.1717243" />
+                <Rotation x="1.631406E-05" y="0.4065694" z="-3.627889E-05" w="-0.9136199" />
+                <Scale x="0.0693" y="0.0193" z="0.0693" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">BackQuote</StringArray>
+                <StringArray key="bmt-emulate">
+                    <String>Joystick2Button0</String>
+                    <String>Message=QJ2</String>
+                    <String>Use=True</String>
+                </StringArray>
+                <Boolean key="bmt-non-automatic">False</Boolean>
+                <Boolean key="bmt-hold-to-activate">False</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Boolean key="bmt-ignore-static">True</Boolean>
+                <Single key="bmt-distance">0.03</Single>
+                <Single key="bmt-radius">0.05</Single>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+        <Block id="65" guid="f027a053-4bcf-4439-82bf-3d8f73ae76cb">
+            <Transform>
+                <Position x="3.966801" y="18.33287" z="-0.09202385" />
+                <Rotation x="3.497624E-05" y="0.8240348" z="-2.373114E-05" w="-0.5665392" />
+                <Scale x="0.0693" y="0.0193" z="0.0693" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">BackQuote</StringArray>
+                <StringArray key="bmt-emulate">
+                    <String>Joystick2Button5</String>
+                    <String>Message=QJ0</String>
+                    <String>Use=True</String>
+                </StringArray>
+                <Boolean key="bmt-non-automatic">False</Boolean>
+                <Boolean key="bmt-hold-to-activate">False</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Boolean key="bmt-ignore-static">True</Boolean>
+                <Single key="bmt-distance">0.03</Single>
+                <Single key="bmt-radius">0.05</Single>
+                <String key="bmt-TransformHolder" />
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

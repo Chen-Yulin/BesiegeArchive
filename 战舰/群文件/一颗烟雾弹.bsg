@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="2">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="5.05" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods" />
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="c4e8418e-83ef-48df-9414-6f2ec52dc2d9">
+            <Transform>
+                <Position x="0" y="0" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1</Single>
+                <Single key="bmt-y-scale">1</Single>
+                <Single key="bmt-z-scale">1</Single>
+            </Data>
+        </Block>
+        <Block id="63" guid="9ddfccf3-3d3d-4fbc-b305-de78ab2ae5c8">
+            <Transform>
+                <Position x="0" y="1" z="0" />
+                <Rotation x="0.5" y="0.5" z="0.5" w="-0.5" />
+                <Scale x="0.1" y="0.1" z="0.3" />
+            </Transform>
+            <Data>
+                <Boolean key="bmt-scale">True</Boolean>
+                <Single key="bmt-x-scale">0.1</Single>
+                <Single key="bmt-y-scale">0.1</Single>
+                <Single key="bmt-z-scale">0.3</Single>
+                <Integer key="length">3</Integer>
+            </Data>
+        </Block>
+        <Block id="39" guid="5505c911-8cb2-4a60-a360-ccee95fccc0d">
+            <Transform>
+                <Position x="0" y="1.100001" z="-0.1" />
+                <Rotation x="0.5" y="0.5" z="0.5" w="-0.5" />
+                <Scale x="0.05" y="0.05" z="0.3" />
+            </Transform>
+            <Data>
+                <Boolean key="bmt-automatic">False</Boolean>
+                <Boolean key="bmt-toggle-mode">True</Boolean>
+                <Boolean key="bmt-auto-brake">False</Boolean>
+                <StringArray key="bmt-forward">Alpha1</StringArray>
+                <StringArray key="bmt-backward">None</StringArray>
+                <Single key="bmt-speed">30</Single>
+                <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="bmt-scale">True</Boolean>
+                <Single key="bmt-x-scale">0.05</Single>
+                <Single key="bmt-y-scale">0.05</Single>
+                <Single key="bmt-z-scale">0.3</Single>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="22" guid="7dfa5039-70bc-495c-b867-2d8ed8a8dbcf">
+            <Transform>
+                <Position x="0" y="1.35" z="-0.1" />
+                <Rotation x="0.5" y="0.5" z="0.5" w="-0.5" />
+                <Scale x="0.1" y="0.2" z="0.2" />
+            </Transform>
+            <Data>
+                <Single key="bmt-speed">0</Single>
+                <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="bmt-scale">True</Boolean>
+                <Single key="bmt-x-scale">0.1</Single>
+                <Single key="bmt-y-scale">0.2</Single>
+                <Single key="bmt-z-scale">0.2</Single>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

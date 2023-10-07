@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="t-0">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="38.55" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods">24db7500-6caa-471c-8ba6-c43c0be5fd1d~L~0.6.17~WW2Naval</StringArray>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="42e394e2-ea64-432d-a175-96b2c242b9f3">
+            <Transform>
+                <Position x="0" y="0" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="1000" guid="2d9a9e84-d5f8-47d2-a879-4e92127a119b" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="1">
+            <Transform>
+                <Position x="0" y="0" z="-0.5" />
+                <Rotation x="0" y="1" z="0" w="0" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-Fire">C</StringArray>
+                <StringArray key="bmt-SwitchCannonType">R</StringArray>
+                <Single key="bmt-Caliber">406</Single>
+                <Boolean key="bmt-TrackCannon">False</Boolean>
+                <Boolean key="bmt-FireControl">False</Boolean>
+                <String key="bmt-GunGroup">g0</String>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="63" guid="23c41dde-88b8-47aa-99c0-3344d9111db6">
+            <Transform>
+                <Position x="0" y="-1.5" z="-15" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Single key="bmt-WW2Thickness">370</Single>
+                <Boolean key="bmt-AsDeck">False</Boolean>
+                <Boolean key="bmt-WW2WaveToggle">False</Boolean>
+                <Single key="bmt-WaveSize">3</Single>
+                <Integer key="length">3</Integer>
+            </Data>
+        </Block>
+        <Block id="57" guid="de7f46f5-1878-4524-bead-a6f4dde8fd29">
+            <Transform>
+                <Position x="0" y="-1" z="-15" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="57" guid="23ea2c81-5558-4947-8bba-8efb638ee466">
+            <Transform>
+                <Position x="0" y="0" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="74" guid="d73d74e7-89b0-42fe-934b-490ad08f5ce5">
+            <Transform>
+                <Position x="0" y="0" z="-21.1" />
+                <Rotation x="0" y="1" z="5.960464E-08" w="0" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-rise">U</StringArray>
+                <StringArray key="bmt-drop">J</StringArray>
+                <Boolean key="bmt-ASP">True</Boolean>
+                <Single key="bmt-height">38.55</Single>
+                <Single key="bmt-buoyancy">1</Single>
+                <Color key="bmt-colour">
+                    <R>1</R>
+                    <G>0.9098039</G>
+                    <B>0.7568628</B>
+                </Color>
+            </Data>
+        </Block>
+        <Block id="63" guid="a76ae62e-f832-4fe5-bcc2-f31701ca7008">
+            <Transform>
+                <Position x="-0.9" y="-1.5" z="-20.6" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Single key="bmt-WW2Thickness">10</Single>
+                <Boolean key="bmt-AsDeck">False</Boolean>
+                <Boolean key="bmt-WW2WaveToggle">False</Boolean>
+                <Single key="bmt-WaveSize">3</Single>
+                <Integer key="length">3</Integer>
+            </Data>
+        </Block>
+        <Block id="63" guid="602ad35e-44af-41a0-a926-8cf16da45207">
+            <Transform>
+                <Position x="0" y="-1.5" z="-20.6" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Single key="bmt-WW2Thickness">10</Single>
+                <Boolean key="bmt-AsDeck">False</Boolean>
+                <Boolean key="bmt-WW2WaveToggle">False</Boolean>
+                <Single key="bmt-WaveSize">3</Single>
+                <Integer key="length">3</Integer>
+            </Data>
+        </Block>
+        <Block id="63" guid="dddbdcbc-8f8c-4c4c-aa08-e1c51aa22f57">
+            <Transform>
+                <Position x="0.9" y="-1.5" z="-20.6" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Single key="bmt-WW2Thickness">10</Single>
+                <Boolean key="bmt-AsDeck">False</Boolean>
+                <Boolean key="bmt-WW2WaveToggle">False</Boolean>
+                <Single key="bmt-WaveSize">3</Single>
+                <Integer key="length">3</Integer>
+            </Data>
+        </Block>
+        <Block id="57" guid="51d06954-6a9b-4e03-acc0-0866c5410163">
+            <Transform>
+                <Position x="-0.9" y="-1" z="-20.6" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="57" guid="72db2652-3b41-401a-bbbb-125ba4437a5e">
+            <Transform>
+                <Position x="0" y="-1" z="-20.6" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="57" guid="04abf065-8fe2-4344-8c68-cc8c758159ca">
+            <Transform>
+                <Position x="0.9" y="-1" z="-20.6" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

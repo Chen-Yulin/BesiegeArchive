@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="A2G">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="5.05" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods">95e9c048-7ee6-4b61-85d2-d6a637ee9a30~L~0.7.0~ModernAirCombat</StringArray>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="b15f33fc-b564-4920-833c-e44654baae7b">
+            <Transform>
+                <Position x="-114.5" y="0" z="-89" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="35" guid="efeef219-3bdc-4c30-9f16-eb14024f526f">
+            <Transform>
+                <Position x="0" y="66.5" z="254.5" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Single key="bmt-mass">0.5</Single>
+            </Data>
+        </Block>
+        <Block id="1012" guid="811e3be1-5cc2-4d8f-bdf6-3962e61fc21b" modId="95e9c048-7ee6-4b61-85d2-d6a637ee9a30" localId="13">
+            <Transform>
+                <Position x="0.4999999" y="68" z="254.5" />
+                <Rotation x="-0.5000001" y="-0.5" z="0.5000001" w="0.5" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Integer key="bmt-Missile Type">0</Integer>
+                <StringArray key="bmt-launch">Alpha1</StringArray>
+                <Single key="bmt-detection delay">0.2</Single>
+                <Single key="bmt-launch delay">0.1</Single>
+                <Single key="bmt-PF range">5</Single>
+                <Single key="bmt-Maximum G-value">30</Single>
+                <Single key="bmt-Thrust">2000</Single>
+                <Single key="bmt-Thrust Duration">5</Single>
+                <Boolean key="flipped">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="1010" guid="f61d4610-dbb8-4623-8fe9-b21a27f0be8b" modId="95e9c048-7ee6-4b61-85d2-d6a637ee9a30" localId="11">
+            <Transform>
+                <Position x="0" y="66.5" z="254.5" />
+                <Rotation x="-3.090862E-08" y="-0.7071068" z="0.7071067" w="-3.090862E-08" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1011" guid="b9e4d562-b540-47d1-b8c3-0660902dfe5c" modId="95e9c048-7ee6-4b61-85d2-d6a637ee9a30" localId="12">
+            <Transform>
+                <Position x="0" y="67" z="255" />
+                <Rotation x="-2.605402E-15" y="-5.960464E-08" z="1" w="-4.371139E-08" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-Lock">X</StringArray>
+                <StringArray key="bmt-ZoomIn">N</StringArray>
+                <StringArray key="bmt-ZoomOut">M</StringArray>
+                <StringArray key="bmt-PitchUp">Y</StringArray>
+                <StringArray key="bmt-PitchDown">H</StringArray>
+                <StringArray key="bmt-YawLeft">G</StringArray>
+                <StringArray key="bmt-YawRight">J</StringArray>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="57" guid="711b0f75-725e-4ebf-b459-11ad85e43cee">
+            <Transform>
+                <Position x="0" y="67" z="254.5" />
+                <Rotation x="0" y="1" z="0" w="-4.371139E-08" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

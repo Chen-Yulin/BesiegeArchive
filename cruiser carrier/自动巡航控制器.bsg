@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="自动巡航控制器">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="-0.01789117" y="14.40972" z="-0.0007840302" />
+        <Rotation x="5.960456E-08" y="0.001370698" z="-9.685746E-08" w="0.9999991" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods" />
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="df6ef481-530e-4e86-b168-e521bd120756">
+            <Transform>
+                <Position x="0.01508072" y="17.42" z="-4.30996" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="2.75" y="0.2" z="25" />
+            </Transform>
+            <Settings>
+                <Skin name="Al-Red" id="705208496" />
+            </Settings>
+            <Data>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">2.75</Single>
+                <Single key="bmt-y-scale">0.2</Single>
+                <Single key="bmt-z-scale">25</Single>
+            </Data>
+        </Block>
+        <Block id="0" guid="e36eb06f-58a3-4ecb-a8ff-4459f6dd1419">
+            <Transform>
+                <Position x="-0.02486758" y="18.22" z="-2.90992" />
+                <Rotation x="-4.371139E-08" y="-1" z="-4.371139E-08" w="1.910685E-15" />
+                <Scale x="3.5" y="0.2" z="14" />
+            </Transform>
+            <Settings>
+                <Skin name="Al-Grey" id="808852499" />
+            </Settings>
+            <Data>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">3.5</Single>
+                <Single key="bmt-y-scale">0.2</Single>
+                <Single key="bmt-z-scale">14</Single>
+            </Data>
+        </Block>
+        <Block id="0" guid="53c7b620-7965-450f-8731-07515cf78af1">
+            <Transform>
+                <Position x="-0.05481861" y="18.58064" z="0.1073958" />
+                <Rotation x="-0.1392297" y="-7.498944E-08" z="8.140672E-08" w="0.9902601" />
+                <Scale x="3.5" y="0.2" z="3.1" />
+            </Transform>
+            <Settings>
+                <Skin name="Al-Grey" id="808852499" />
+            </Settings>
+            <Data>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">3.5</Single>
+                <Single key="bmt-y-scale">0.2</Single>
+                <Single key="bmt-z-scale">3.1</Single>
+            </Data>
+        </Block>
+        <Block id="0" guid="c6a87047-3d04-43e3-ab5a-310f211e8c52">
+            <Transform>
+                <Position x="-0.05878991" y="18.9" z="3.490101" />
+                <Rotation x="-7.81597E-14" y="-1" z="3.258414E-07" w="3.821371E-15" />
+                <Scale x="4" y="0.19" z="3.7" />
+            </Transform>
+            <Settings>
+                <Skin name="Al-Grey" id="808852499" />
+            </Settings>
+            <Data>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">4</Single>
+                <Single key="bmt-y-scale">0.19</Single>
+                <Single key="bmt-z-scale">3.7</Single>
+            </Data>
+        </Block>
+        <Block id="14" guid="09f819f5-4845-4084-937a-6786ed308cb7">
+            <Transform>
+                <Position x="-0.004927675" y="22.46073" z="2.938369" />
+                <Rotation x="0.03376742" y="0.9576743" z="-0.1261294" w="0.2565368" />
+                <Scale x="0.02" y="0.02" z="0" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-spin">Keypad1</StringArray>
+                <Boolean key="bmt-automatic">False</Boolean>
+                <Boolean key="bmt-toggle-mode">True</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Single key="bmt-speed">20</Single>
+                <Boolean key="bmt-scale">True</Boolean>
+                <Single key="bmt-x-scale">0.02</Single>
+                <Single key="bmt-y-scale">0.02</Single>
+                <Single key="bmt-z-scale">0</Single>
+            </Data>
+        </Block>
+        <Block id="14" guid="097945f7-f1d5-4fd2-ab2b-d3471525224c">
+            <Transform>
+                <Position x="-0.005287655" y="22.50323" z="3.053963" />
+                <Rotation x="-0.7517136" y="0.000127658" z="-0.0001261855" w="0.6594896" />
+                <Scale x="0.05" y="0.05" z="0" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-spin">Insert</StringArray>
+                <Boolean key="bmt-automatic">False</Boolean>
+                <Boolean key="bmt-toggle-mode">False</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Single key="bmt-speed">25</Single>
+                <Boolean key="bmt-scale">True</Boolean>
+                <Single key="bmt-x-scale">0.05</Single>
+                <Single key="bmt-y-scale">0.05</Single>
+                <Single key="bmt-z-scale">0</Single>
+            </Data>
+        </Block>
+        <Block id="67" guid="e3696879-ae74-4056-9cb2-bff6d38aa642">
+            <Transform>
+                <Position x="-0.004410505" y="22.22968" z="3.152314" />
+                <Rotation x="-4.299232E-07" y="0.6427692" z="0.7660599" w="-3.320596E-07" />
+                <Scale x="0.1" y="0.1" z="0.1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">Keypad1</StringArray>
+                <StringArray key="bmt-emulate">Insert</StringArray>
+                <Boolean key="bmt-non-automatic">True</Boolean>
+                <Boolean key="bmt-hold-to-activate">False</Boolean>
+                <Boolean key="bmt-reverse">True</Boolean>
+                <Single key="bmt-height">130</Single>
+                <Boolean key="bmt-scale">True</Boolean>
+                <Single key="bmt-x-scale">0.1</Single>
+                <Single key="bmt-y-scale">0.1</Single>
+                <Single key="bmt-z-scale">0.1</Single>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

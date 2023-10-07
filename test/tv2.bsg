@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="tv2">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="5.05" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods">95e9c048-7ee6-4b61-85d2-d6a637ee9a30~L~0.7.0~ModernAirCombat</StringArray>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="a237d80f-91c6-4498-948d-6f996abaf2ac">
+            <Transform>
+                <Position x="0" y="0" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="35" guid="9e9535c2-0411-47f9-bf50-e7bd898c5cbb">
+            <Transform>
+                <Position x="0" y="48.5" z="-78.5" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Single key="bmt-mass">0.25</Single>
+            </Data>
+        </Block>
+        <Block id="1010" guid="c8b29560-25ab-4dfd-b65d-09d8386e6568" modId="95e9c048-7ee6-4b61-85d2-d6a637ee9a30" localId="11">
+            <Transform>
+                <Position x="0" y="48" z="-78" />
+                <Rotation x="-0.7071068" y="6.181724E-08" z="-6.181724E-08" w="-0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1011" guid="9abc0e92-c698-4ee0-befd-421525f22d28" modId="95e9c048-7ee6-4b61-85d2-d6a637ee9a30" localId="12">
+            <Transform>
+                <Position x="0" y="48.5" z="-78.5" />
+                <Rotation x="1" y="-4.371139E-08" z="0" w="0" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

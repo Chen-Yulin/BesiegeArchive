@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="烟雾发生器">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="25.25141" z="-5.5" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods" />
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="56" guid="5bc44056-c7c6-4bf3-862e-c065a814fd0f">
+            <Transform>
+                <Position x="10.09" y="5.312275" z="4.658871" />
+                <Rotation x="-1.15255E-07" y="0.8660764" z="0.4999117" w="-7.098507E-08" />
+                <Scale x="0.05" y="0.05" z="0" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-shoot">Alpha3</StringArray>
+                <Boolean key="bmt-hold-to-fire">False</Boolean>
+                <Single key="bmt-strength">1E+32</Single>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">0.05</Single>
+                <Single key="bmt-y-scale">0.05</Single>
+                <Single key="bmt-z-scale">0</Single>
+            </Data>
+        </Block>
+        <Block id="59" guid="7f14fb8f-58cf-4025-a816-9bd05004382d">
+            <Transform>
+                <Position x="10.03" y="5.441916" z="4.803415" />
+                <Rotation x="0.3534906" y="0.6124083" z="0.3534915" w="0.6124086" />
+                <Scale x="0.1" y="0.02" z="0.1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-launch">Alpha3</StringArray>
+                <Single key="bmt-duration">30</Single>
+                <Single key="bmt-strength">-200</Single>
+                <Single key="bmt-charge">0</Single>
+                <Color key="bmt-colour">
+                    <R>1</R>
+                    <G>0.2980392</G>
+                    <B>0</B>
+                </Color>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">0.1</Single>
+                <Single key="bmt-y-scale">0.02</Single>
+                <Single key="bmt-z-scale">0.1</Single>
+            </Data>
+        </Block>
+        <Block id="59" guid="125550a4-ed19-4c45-b80d-78340d17f0bc">
+            <Transform>
+                <Position x="10.03" y="5.316916" z="4.586909" />
+                <Rotation x="0.6124088" y="-0.3534909" z="0.6124084" w="-0.3534907" />
+                <Scale x="0.1" y="0.02" z="0.1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-launch">Alpha3</StringArray>
+                <Single key="bmt-duration">30</Single>
+                <Single key="bmt-strength">-200</Single>
+                <Single key="bmt-charge">0</Single>
+                <Color key="bmt-colour">
+                    <R>1</R>
+                    <G>0.2980392</G>
+                    <B>0</B>
+                </Color>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">0.1</Single>
+                <Single key="bmt-y-scale">0.02</Single>
+                <Single key="bmt-z-scale">0.1</Single>
+            </Data>
+        </Block>
+        <Block id="4" guid="78f53472-6ef0-4295-a51c-436c9fc29f9c">
+            <Transform>
+                <Position x="10.08" y="5.284155" z="4.750163" />
+                <Rotation x="-1.065301E-06" y="0.9658995" z="-0.2589174" w="-4.362168E-07" />
+                <Scale x="0.1" y="0.1" z="0.3767037" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-explode">Alpha1</StringArray>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">0.1</Single>
+                <Single key="bmt-y-scale">0.1</Single>
+                <Single key="bmt-z-scale">0.3767037</Single>
+            </Data>
+        </Block>
+        <Block id="14" guid="eb32f9bb-ef1f-4326-87c8-bc6b62d38c57">
+            <Transform>
+                <Position x="10.08" y="5.439665" z="4.799516" />
+                <Rotation x="-0.2589174" y="4.362168E-07" z="1.065301E-06" w="0.9658995" />
+                <Scale x="0.02" y="0.02" z="0.1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-spin">Alpha1</StringArray>
+                <Boolean key="bmt-automatic">False</Boolean>
+                <Boolean key="bmt-toggle-mode">False</Boolean>
+                <Boolean key="bmt-reverse">False</Boolean>
+                <Single key="bmt-speed">400</Single>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">0.02</Single>
+                <Single key="bmt-y-scale">0.02</Single>
+                <Single key="bmt-z-scale">0.1</Single>
+            </Data>
+        </Block>
+        <Block id="56" guid="c1b19926-f7e1-496a-b449-322207e417f8">
+            <Transform>
+                <Position x="10.10961" y="5.371679" z="4.624557" />
+                <Rotation x="-0.4329111" y="0.4331126" z="0.2499991" w="-0.7500013" />
+                <Scale x="0.05" y="0.05" z="0" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-shoot">Alpha3</StringArray>
+                <Boolean key="bmt-hold-to-fire">False</Boolean>
+                <Single key="bmt-strength">1E+32</Single>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">0.05</Single>
+                <Single key="bmt-y-scale">0.05</Single>
+                <Single key="bmt-z-scale">0</Single>
+            </Data>
+        </Block>
+        <Block id="56" guid="c1c8979c-9204-4dc7-bee8-59805e11ac6c">
+            <Transform>
+                <Position x="10.04039" y="5.356682" z="4.633221" />
+                <Rotation x="-0.4329354" y="-0.4330409" z="-0.2499559" w="-0.7500431" />
+                <Scale x="0.05" y="0.05" z="0" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-shoot">Alpha3</StringArray>
+                <Boolean key="bmt-hold-to-fire">False</Boolean>
+                <Single key="bmt-strength">1E+32</Single>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">0.05</Single>
+                <Single key="bmt-y-scale">0.05</Single>
+                <Single key="bmt-z-scale">0</Single>
+            </Data>
+        </Block>
+        <Block id="12" guid="c93f0e56-2760-4e4c-933d-108ff279f371">
+            <Transform>
+                <Position x="10.08" y="5.441917" z="4.803416" />
+                <Rotation x="-1.065301E-06" y="0.9658995" z="-0.2589174" w="-4.362168E-07" />
+                <Scale x="0.1" y="0.1" z="0.29" />
+            </Transform>
+            <Data>
+                <Single key="bmt-mass">6</Single>
+                <Boolean key="bmt-mass-from-size">False</Boolean>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">0.1</Single>
+                <Single key="bmt-y-scale">0.1</Single>
+                <Single key="bmt-z-scale">0.29</Single>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

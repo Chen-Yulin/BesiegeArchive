@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="山地猫">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="5.05" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <String key="modLoader-machineData">MachineData
+</String>
+        <StringArray key="requiredMods" />
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="911a8b72-3c78-4a55-94eb-fee6797202ea">
+            <Transform>
+                <Position x="0" y="-9.536743E-07" z="0" />
+                <Rotation x="-4.371139E-07" y="-1.528548E-14" z="8.742278E-08" w="1" />
+                <Scale x="7.35" y="0.9999999" z="2.85" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - canvas" id="2011393236" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="57" guid="7922bff2-1e38-4fe5-8d0f-d623066f96db">
+            <Transform>
+                <Position x="0" y="-9.536743E-07" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="35" guid="31285f10-8d61-4586-80ce-6f60f177a5f7">
+            <Transform>
+                <Position x="-2.75" y="-0.4500008" z="-2.8" />
+                <Rotation x="-0.7071068" y="-3.090862E-08" z="3.090863E-08" w="0.7071068" />
+                <Scale x="1" y="1.1" z="0.4" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data>
+                <Single key="bmt-mass">2</Single>
+                <Boolean key="bmt-tonerikoSeaMod">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="44" guid="2fcea6a9-1512-475c-8628-045d3a675107">
+            <Transform>
+                <Position x="-2.75" y="-0.2000017" z="-2.799999" />
+                <Rotation x="8.940941E-08" y="4.035344E-07" z="4.770846E-08" w="1" />
+                <Scale x="1" y="0.5" z="1.7" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="28" guid="77d9b4fa-5e74-4592-b90a-63a31cf309ed">
+            <Transform>
+                <Position x="-2.75" y="-0.3000011" z="-2.8" />
+                <Rotation x="-0.02343729" y="0.5367154" z="-0.03679602" w="0.8426347" />
+                <Scale x="1" y="0.5" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-left">LeftArrow</StringArray>
+                <StringArray key="bmt-right">RightArrow</StringArray>
+                <Boolean key="bmt-autoReturn">True</Boolean>
+                <Single key="bmt-rotation-speed">2</Single>
+                <Boolean key="bmt-uselimits">True</Boolean>
+                <SingleArray key="bmt-limits">
+                    <Single>45</Single>
+                    <Single>45</Single>
+                </SingleArray>
+                <Boolean key="flipped">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="5" guid="b63be382-0d40-4389-9c52-085202ec2245">
+            <Transform>
+                <Position x="-1.843765" y="-0.2999997" z="-2.377226" />
+                <Rotation x="0.1734449" y="-2.02057E-08" z="0.9848436" w="-3.426775E-07" />
+                <Scale x="0.6" y="0.6" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="35" guid="3505c53d-82da-4fa4-8b36-f2fbd24b0b16">
+            <Transform>
+                <Position x="-2.75" y="-0.4500017" z="2.8" />
+                <Rotation x="8.456486E-15" y="-0.7071068" z="-0.7071069" w="6.181724E-08" />
+                <Scale x="1" y="1.1" z="0.4" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data>
+                <Single key="bmt-mass">2</Single>
+                <Boolean key="bmt-tonerikoSeaMod">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="44" guid="639d9823-c8cf-4f64-a960-61b2f2b9a5d5">
+            <Transform>
+                <Position x="-2.75" y="-0.2000017" z="2.799999" />
+                <Rotation x="3.997087E-09" y="-1" z="4.569801E-08" w="-4.035344E-07" />
+                <Scale x="1" y="0.5" z="1.7" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="5" guid="5e148515-6c37-4702-9ee3-93a1632b6411">
+            <Transform>
+                <Position x="-1.843765" y="-0.3000002" z="2.377226" />
+                <Rotation x="0.9848436" y="2.920471E-07" z="0.1734449" w="5.567306E-08" />
+                <Scale x="0.6" y="0.6" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="35" guid="7a14e02b-4b78-4eb1-8ae4-0103181d0908">
+            <Transform>
+                <Position x="-6.456889" y="-2.931183" z="2.449423" />
+                <Rotation x="0.1959554" y="-0.6725186" z="-0.687156" w="0.1927095" />
+                <Scale x="1" y="1.1" z="0.4" />
+            </Transform>
+            <Data>
+                <Single key="bmt-mass">0.2</Single>
+                <Boolean key="bmt-tonerikoSeaMod">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="46" guid="d9f1ef67-a590-4412-947e-5c77cd62e992">
+            <Transform>
+                <Position x="-6.561919" y="-2.771994" z="2.953037" />
+                <Rotation x="-0.002295188" y="-0.01035018" z="0.9614351" w="-0.2748276" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="MUD Wheels" id="715675748" />
+            </Settings>
+            <Data>
+                <Boolean key="bmt-automatic">False</Boolean>
+                <Boolean key="bmt-toggle-mode">False</Boolean>
+                <Boolean key="bmt-auto-brake">True</Boolean>
+                <StringArray key="bmt-forward">UpArrow</StringArray>
+                <StringArray key="bmt-backward">DownArrow</StringArray>
+                <Single key="bmt-speed">3</Single>
+                <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="flipped">False</Boolean>
+                <Boolean key="bmt-uselimits">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="38" guid="bebf0f18-66fa-4c9d-9285-e7af53561650">
+            <Transform>
+                <Position x="-2.75" y="-0.2500014" z="2.85" />
+                <Rotation x="-2.980233E-08" y="-4.371138E-08" z="-1.311342E-07" w="-1" />
+                <Scale x="0.5" y="0.5" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data>
+                <Boolean key="bmt-freeze">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="46" guid="997d2d0b-3fc6-4486-a5e2-adbf8865f1d3">
+            <Transform>
+                <Position x="-6.569567" y="-2.645075" z="-3.045616" />
+                <Rotation x="0.9614351" y="0.2748275" z="0.002295299" w="-0.01035011" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="MUD Wheels" id="715675748" />
+            </Settings>
+            <Data>
+                <Boolean key="bmt-automatic">False</Boolean>
+                <Boolean key="bmt-toggle-mode">False</Boolean>
+                <Boolean key="bmt-auto-brake">True</Boolean>
+                <StringArray key="bmt-forward">UpArrow</StringArray>
+                <StringArray key="bmt-backward">DownArrow</StringArray>
+                <Single key="bmt-speed">3</Single>
+                <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="flipped">True</Boolean>
+                <Boolean key="bmt-uselimits">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="35" guid="d7b27ebc-9139-4789-a3ea-4bae47e3beea">
+            <Transform>
+                <Position x="-6.463263" y="-2.825418" z="-2.549455" />
+                <Rotation x="-0.6725187" y="-0.1959554" z="0.1927094" w="0.6871559" />
+                <Scale x="1" y="1.1" z="0.4" />
+            </Transform>
+            <Data>
+                <Single key="bmt-mass">0.2</Single>
+                <Boolean key="bmt-tonerikoSeaMod">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="38" guid="3aea60d4-1aad-4507-8c8e-f51af4e48fae">
+            <Transform>
+                <Position x="-2.75" y="-0.250001" z="-2.85" />
+                <Rotation x="-8.742278E-08" y="1" z="1.390907E-08" w="4.371137E-08" />
+                <Scale x="0.5" y="0.5" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data>
+                <Boolean key="bmt-freeze">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="7" guid="5540de50-bed5-47a9-bc52-5c02e89997fc">
+            <Transform>
+                <Position x="-3.8" y="-0.2500014" z="2.8" />
+                <Rotation x="7.165243E-08" y="0.7071068" z="-1.334697E-07" w="-0.7071069" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Single key="bmt-length">0</Single>
+                <Vector3 key="bmt-start-rotation">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="bmt-end-rotation">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>-2.800001</X>
+                    <Y>0.250001</Y>
+                    <Z>-3.300001</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>5.008956E-06</X>
+                    <Y>270</Y>
+                    <Z>1.662073E-05</Z>
+                </Vector3>
+                <Vector3 key="end-rotation">
+                    <X>5.008961E-06</X>
+                    <Y>270</Y>
+                    <Z>-2.504478E-05</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="7" guid="fa206b68-d964-4669-9db1-3c4c343b92f6">
+            <Transform>
+                <Position x="-3.8" y="-0.250001" z="-2.8" />
+                <Rotation x="-7.165247E-08" y="0.7071069" z="7.165243E-08" w="-0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Single key="bmt-length">4.335035</Single>
+                <Vector3 key="bmt-start-rotation">
+                    <X>5.008958E-06</X>
+                    <Y>270</Y>
+                    <Z>1.662073E-05</Z>
+                </Vector3>
+                <Vector3 key="bmt-end-rotation">
+                    <X>5.00896E-06</X>
+                    <Y>270</Y>
+                    <Z>-2.504478E-05</Z>
+                </Vector3>
+                <Vector3 key="start-position">
+                    <X>2.842171E-14</X>
+                    <Y>1.524659E-20</Y>
+                    <Z>2.384186E-07</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>2.8</X>
+                    <Y>0.2500006</Y>
+                    <Z>-3.300005</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>2.035555E-12</X>
+                    <Y>270</Y>
+                    <Z>-1.161177E-05</Z>
+                </Vector3>
+                <Vector3 key="end-rotation">
+                    <X>1.139911E-11</X>
+                    <Y>270</Y>
+                    <Z>3.005374E-05</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="5" guid="a86e5e4a-8f67-4bdc-a070-59391dbd99d5">
+            <Transform>
+                <Position x="3.45" y="-1.430511E-06" z="-1.1" />
+                <Rotation x="1.466105E-07" y="-0.9658993" z="0.258918" w="-8.487989E-08" />
+                <Scale x="1" y="0.5" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="5" guid="faaabca4-30a6-49a6-91ac-681d0d9a29f4">
+            <Transform>
+                <Position x="3.450001" y="-0.9750009" z="-2.788749" />
+                <Rotation x="-0.2589173" y="-7.356206E-08" z="1.888314E-07" w="0.9658995" />
+                <Scale x="1" y="0.5" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="35" guid="8b96690a-ba73-4df7-9040-164523caa7bb">
+            <Transform>
+                <Position x="3.450001" y="-0.9750009" z="-2.788749" />
+                <Rotation x="-2.42708E-08" y="-1" z="-2.981326E-07" w="4.272146E-08" />
+                <Scale x="1.5" y="1.5" z="0.7" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data>
+                <Single key="bmt-mass">2</Single>
+                <Boolean key="bmt-tonerikoSeaMod">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="16" guid="02d6044e-584e-4eb4-bbb5-f0be10d02a22">
+            <Transform>
+                <Position x="3.450001" y="-0.3250003" z="-2.988749" />
+                <Rotation x="0.642769" y="-1.610351E-07" z="-7.674906E-08" w="-0.7660601" />
+                <Scale x="0.7" y="0.6" z="0.8" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data>
+                <Single key="bmt-spring">1</Single>
+            </Data>
+        </Block>
+        <Block id="5" guid="a266ca0c-46ff-4bf9-a440-801e7bb5233f">
+            <Transform>
+                <Position x="3.450001" y="0.874999" z="-2.788748" />
+                <Rotation x="-4.172325E-07" y="-1.301442E-07" z="-6.315197E-08" w="-1" />
+                <Scale x="1" y="0.7" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="7" guid="1cab7b3b-16ad-40d6-93af-6b5f3973bb56">
+            <Transform>
+                <Position x="3.450001" y="0.8749981" z="-1.788748" />
+                <Rotation x="-4.172325E-07" y="-1.301442E-07" z="-1.505747E-07" w="-1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data>
+                <Single key="bmt-length">0</Single>
+                <Vector3 key="bmt-start-rotation">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="bmt-end-rotation">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>-3.450002</X>
+                    <Y>-0.5249966</Y>
+                    <Z>1.788747</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>4.781131E-05</X>
+                    <Y>1.491343E-05</Y>
+                    <Z>1.72546E-05</Z>
+                </Vector3>
+                <Vector3 key="end-rotation">
+                    <X>270</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="46" guid="e6f7aa37-80ba-42f6-a569-48602dd072eb">
+            <Transform>
+                <Position x="3.450001" y="-0.9750004" z="-3.48875" />
+                <Rotation x="-1.116936E-07" y="-1" z="-2.981326E-07" w="4.272149E-08" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="MUD Wheels" id="715675748" />
+            </Settings>
+            <Data>
+                <Boolean key="bmt-automatic">False</Boolean>
+                <Boolean key="bmt-toggle-mode">False</Boolean>
+                <Boolean key="bmt-auto-brake">True</Boolean>
+                <StringArray key="bmt-forward">UpArrow</StringArray>
+                <StringArray key="bmt-backward">DownArrow</StringArray>
+                <Single key="bmt-speed">3</Single>
+                <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="flipped">True</Boolean>
+                <Boolean key="bmt-uselimits">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="5" guid="9710423e-1a03-4941-8471-56ba7c529203">
+            <Transform>
+                <Position x="3.450001" y="-0.9750013" z="2.78875" />
+                <Rotation x="1.466106E-07" y="-0.9658995" z="-0.2589174" w="8.487971E-08" />
+                <Scale x="1" y="0.5" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="35" guid="08579f5f-7ca7-4ce0-a680-a7e1bd3e4529">
+            <Transform>
+                <Position x="3.450001" y="-0.9750013" z="2.78875" />
+                <Rotation x="-3.41844E-07" y="-4.272145E-08" z="1.944058E-08" w="1" />
+                <Scale x="1.5" y="1.5" z="0.7" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data>
+                <Single key="bmt-mass">2</Single>
+                <Boolean key="bmt-tonerikoSeaMod">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="16" guid="a1494789-6ce9-4ccd-9a37-bdbab5c7c553">
+            <Transform>
+                <Position x="3.450001" y="-0.3249998" z="2.98875" />
+                <Rotation x="-4.326352E-08" y="0.7660601" z="0.642769" w="1.329388E-07" />
+                <Scale x="0.7" y="0.6" z="0.8" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data>
+                <Single key="bmt-spring">1</Single>
+            </Data>
+        </Block>
+        <Block id="5" guid="d15c5fa6-025e-4693-b288-14ff420c3cf8">
+            <Transform>
+                <Position x="3.450001" y="0.874999" z="2.788748" />
+                <Rotation x="-1.944059E-08" y="1" z="-3.735211E-07" w="1.301442E-07" />
+                <Scale x="1" y="0.7" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="46" guid="166a56e1-8336-4c8d-a801-da622a63db65">
+            <Transform>
+                <Position x="3.450001" y="-0.9749994" z="3.48875" />
+                <Rotation x="-3.41844E-07" y="-4.272147E-08" z="-6.79822E-08" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="MUD Wheels" id="715675748" />
+            </Settings>
+            <Data>
+                <Boolean key="bmt-automatic">False</Boolean>
+                <Boolean key="bmt-toggle-mode">False</Boolean>
+                <Boolean key="bmt-auto-brake">True</Boolean>
+                <StringArray key="bmt-forward">UpArrow</StringArray>
+                <StringArray key="bmt-backward">DownArrow</StringArray>
+                <Single key="bmt-speed">4</Single>
+                <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="flipped">False</Boolean>
+                <Boolean key="bmt-uselimits">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="5" guid="71ea5179-f09a-4097-802d-bec3b14a5312">
+            <Transform>
+                <Position x="3.45" y="-9.536743E-07" z="1.1" />
+                <Rotation x="0.2589179" y="7.356222E-08" z="1.888314E-07" w="0.9658993" />
+                <Scale x="1" y="0.5" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="7" guid="2964243c-192c-4741-835e-e5d40fefb572">
+            <Transform>
+                <Position x="3.450001" y="0.874999" z="1.788748" />
+                <Rotation x="-1.068634E-07" y="1" z="-3.735211E-07" w="1.301442E-07" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data>
+                <Single key="bmt-length">3.921448</Single>
+                <Vector3 key="bmt-start-rotation">
+                    <X>4.781131E-05</X>
+                    <Y>1.491343E-05</Y>
+                    <Z>1.72546E-05</Z>
+                </Vector3>
+                <Vector3 key="bmt-end-rotation">
+                    <X>270</X>
+                    <Y>1.151484E-12</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>3.450002</X>
+                    <Y>-0.5249976</Y>
+                    <Z>1.788747</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>4.280236E-05</X>
+                    <Y>180</Y>
+                    <Z>-1.224564E-05</Z>
+                </Vector3>
+                <Vector3 key="end-rotation">
+                    <X>270</X>
+                    <Y>180</Y>
+                    <Z>0</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="32" guid="88b13dcb-59ff-474c-a737-21c1ada273fe">
+            <Transform>
+                <Position x="-3.3" y="1.25" z="3.934025E-07" />
+                <Rotation x="0.6963729" y="-0.1227381" z="-0.6963732" w="-0.1227382" />
+                <Scale x="1" y="1.6" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="Al-Grey" id="808852499" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="35" guid="b19ecdf0-7218-4ecc-94c7-39a27ed48fe2">
+            <Transform>
+                <Position x="-1.05" y="0.499999" z="3.934025E-07" />
+                <Rotation x="0.4999999" y="-0.4999998" z="-0.5000002" w="-0.5000002" />
+                <Scale x="1.6" y="1.1" z="0.5" />
+            </Transform>
+            <Data>
+                <Single key="bmt-mass">0.5</Single>
+                <Boolean key="bmt-tonerikoSeaMod">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="49" guid="6ae9199e-6e0e-470f-a5ea-96fa30fbc250">
+            <Transform>
+                <Position x="-0.5500001" y="1.349999" z="6.169199E-07" />
+                <Rotation x="-0.5000001" y="-0.4999998" z="-0.5000002" w="-0.5" />
+                <Scale x="2.1" y="1.9" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="35" guid="30b11241-8661-41a1-a69c-e0db540e81a4">
+            <Transform>
+                <Position x="-2.7" y="0.499999" z="3.934025E-07" />
+                <Rotation x="0.4999999" y="-0.4999998" z="-0.5000002" w="-0.5000002" />
+                <Scale x="2.5" y="1" z="1.1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - canvas" id="2011393236" />
+            </Settings>
+            <Data>
+                <Single key="bmt-mass">0.5</Single>
+                <Boolean key="bmt-tonerikoSeaMod">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="2" guid="35c793d7-0a11-46ba-ba36-ee6ad6291c23">
+            <Transform>
+                <Position x="-2.2" y="1.499999" z="8.255362E-07" />
+                <Rotation x="-0.3798767" y="-0.5964004" z="-0.5964008" w="-0.3798767" />
+                <Scale x="0.5" y="0.5" z="0.7" />
+            </Transform>
+            <Data>
+                <Boolean key="bmt-automatic">False</Boolean>
+                <Boolean key="bmt-toggle-mode">False</Boolean>
+                <Boolean key="bmt-auto-brake">True</Boolean>
+                <StringArray key="bmt-forward">LeftArrow</StringArray>
+                <StringArray key="bmt-backward">RightArrow</StringArray>
+                <Single key="bmt-speed">1</Single>
+                <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="flipped">False</Boolean>
+                <Boolean key="bmt-uselimits">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="28" guid="b94a1b5d-4cb3-4b3f-8367-1c93a0717b43">
+            <Transform>
+                <Position x="-2.75" y="-0.3000002" z="2.8" />
+                <Rotation x="0.03679645" y="-0.8426347" z="0.02343731" w="-0.5367154" />
+                <Scale x="1" y="0.5" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-left">LeftArrow</StringArray>
+                <StringArray key="bmt-right">RightArrow</StringArray>
+                <Boolean key="bmt-autoReturn">True</Boolean>
+                <Single key="bmt-rotation-speed">2</Single>
+                <Boolean key="bmt-uselimits">True</Boolean>
+                <SingleArray key="bmt-limits">
+                    <Single>45</Single>
+                    <Single>45</Single>
+                </SingleArray>
+                <Boolean key="flipped">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="16" guid="a50e248e-68aa-4900-a833-9dd07e441290">
+            <Transform>
+                <Position x="-2.740186" y="-0.4128819" z="3.84827" />
+                <Rotation x="0.6702127" y="-0.3630238" z="-0.2676907" w="0.5893813" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data>
+                <Single key="bmt-spring">1</Single>
+            </Data>
+        </Block>
+        <Block id="7" guid="225e1cea-8235-4cb3-99a0-e1a95aca6dc7">
+            <Transform>
+                <Position x="-6.563218" y="-2.750856" z="1.953262" />
+                <Rotation x="-0.8741697" y="0.4855049" z="0.005695743" w="0.008941584" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Single key="bmt-length">0</Single>
+                <Vector3 key="bmt-start-rotation">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="bmt-end-rotation">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>0.1764814</X>
+                    <Y>-3.102263</Y>
+                    <Z>-1.132135</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>358.7873</X>
+                    <Y>180.0731</Y>
+                    <Z>238.0939</Z>
+                </Vector3>
+                <Vector3 key="end-rotation">
+                    <X>357.6108</X>
+                    <Y>170.1417</Y>
+                    <Z>233.4029</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="7" guid="5bfc3e65-cc95-46df-941e-914ac8a17ffb">
+            <Transform>
+                <Position x="-6.668272" y="-2.591681" z="2.456876" />
+                <Rotation x="-0.336981" y="-0.6141038" z="-0.3496265" w="0.6221588" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="Al-Grey" id="808852499" />
+            </Settings>
+            <Data>
+                <Single key="bmt-length">0</Single>
+                <Vector3 key="bmt-start-rotation">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="bmt-end-rotation">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>1.081136</X>
+                    <Y>2.983442</Y>
+                    <Z>-0.143303</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>301.9266</X>
+                    <Y>272.02</Y>
+                    <Z>357.7065</Z>
+                </Vector3>
+                <Vector3 key="end-rotation">
+                    <X>306.6641</X>
+                    <Y>263.3548</Y>
+                    <Z>355.9967</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="7" guid="46afab8b-80c8-42fe-998f-62720458bcfb">
+            <Transform>
+                <Position x="-6.430467" y="-2.973622" z="2.448492" />
+                <Rotation x="-0.336981" y="-0.6141038" z="-0.3496265" w="0.6221588" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="Al-Grey" id="808852499" />
+            </Settings>
+            <Data>
+                <Single key="bmt-length">0</Single>
+                <Vector3 key="bmt-start-rotation">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="bmt-end-rotation">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>1.081136</X>
+                    <Y>2.983442</Y>
+                    <Z>-0.1433045</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>301.9267</X>
+                    <Y>272.02</Y>
+                    <Z>357.7064</Z>
+                </Vector3>
+                <Vector3 key="end-rotation">
+                    <X>306.6639</X>
+                    <Y>263.3549</Y>
+                    <Z>355.9967</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="16" guid="cd7ea289-7b46-4e99-874d-5ce867882644">
+            <Transform>
+                <Position x="-2.749999" y="-0.2500067" z="-3.85" />
+                <Rotation x="0.259093" y="0.6029694" z="-0.6579306" w="-0.3693591" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data>
+                <Single key="bmt-spring">1</Single>
+            </Data>
+        </Block>
+        <Block id="7" guid="2ad1df67-ce7e-4b99-a0ae-5ef519754d87">
+            <Transform>
+                <Position x="-6.674644" y="-2.485919" z="-2.541998" />
+                <Rotation x="0.3369817" y="0.614104" z="0.3496259" w="-0.6221586" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="Al-Grey" id="808852499" />
+            </Settings>
+            <Data>
+                <Single key="bmt-length">3.176526</Single>
+                <Vector3 key="bmt-start-rotation">
+                    <X>295.0079</X>
+                    <Y>270</Y>
+                    <Z>-2.827445E-05</Z>
+                </Vector3>
+                <Vector3 key="bmt-end-rotation">
+                    <X>300.0117</X>
+                    <Y>260.0044</Y>
+                    <Z>-0.0002116606</Z>
+                </Vector3>
+                <Vector3 key="start-position">
+                    <X>3.410605E-13</X>
+                    <Y>8.642668E-07</Y>
+                    <Z>-4.031597E-07</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>-1.081138</X>
+                    <Y>2.983443</Y>
+                    <Z>-0.1433055</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>301.9266</X>
+                    <Y>272.0198</Y>
+                    <Z>357.7067</Z>
+                </Vector3>
+                <Vector3 key="end-rotation">
+                    <X>307.0151</X>
+                    <Y>279.9955</Y>
+                    <Z>0.0002949789</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="7" guid="1d494949-3b2f-442d-9563-fea10cc1804a">
+            <Transform>
+                <Position x="-6.568316" y="-2.666245" z="-2.045837" />
+                <Rotation x="0.005695318" y="-0.008941093" z="0.8741697" w="0.4855049" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="Al-Grey" id="808852499" />
+            </Settings>
+            <Data>
+                <Single key="bmt-length">3.3071</Single>
+                <Vector3 key="bmt-start-rotation">
+                    <X>6.830188E-06</X>
+                    <Y>180</Y>
+                    <Z>244.9921</Z>
+                </Vector3>
+                <Vector3 key="bmt-end-rotation">
+                    <X>-0.0001126981</X>
+                    <Y>170.0042</Y>
+                    <Z>239.9882</Z>
+                </Vector3>
+                <Vector3 key="start-position">
+                    <X>-4.031599E-07</X>
+                    <Y>-8.642667E-07</Y>
+                    <Z>-8.976755E-14</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>-0.1764823</X>
+                    <Y>-3.102264</Y>
+                    <Z>-1.132135</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>1.2126</X>
+                    <Y>0.07309125</Y>
+                    <Z>121.9061</Z>
+                </Vector3>
+                <Vector3 key="end-rotation">
+                    <X>-0.0002023444</X>
+                    <Y>9.995754</Y>
+                    <Z>127.0152</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="7" guid="34223835-69c3-4aa0-8ba2-dff979febc0b">
+            <Transform>
+                <Position x="-6.436838" y="-2.867859" z="-2.550382" />
+                <Rotation x="0.3369817" y="0.614104" z="0.3496259" w="-0.6221586" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="Al-Grey" id="808852499" />
+            </Settings>
+            <Data>
+                <Single key="bmt-length">3.176526</Single>
+                <Vector3 key="bmt-start-rotation">
+                    <X>295.0078</X>
+                    <Y>270</Y>
+                    <Z>-2.827449E-05</Z>
+                </Vector3>
+                <Vector3 key="bmt-end-rotation">
+                    <X>300.0117</X>
+                    <Y>260.0044</Y>
+                    <Z>-0.0002184885</Z>
+                </Vector3>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>-1.081138</X>
+                    <Y>2.983445</Y>
+                    <Z>-0.1433082</Z>
+                </Vector3>
+                <Vector3 key="start-rotation">
+                    <X>301.9266</X>
+                    <Y>272.0198</Y>
+                    <Z>357.7066</Z>
+                </Vector3>
+                <Vector3 key="end-rotation">
+                    <X>307.0151</X>
+                    <Y>279.9955</Y>
+                    <Z>0.000388578</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="44" guid="3a3cf3f1-35f2-457b-bda1-d5af7be230c9">
+            <Transform>
+                <Position x="-2.8" y="-0.2500014" z="2.8" />
+                <Rotation x="-7.165243E-08" y="-0.7071068" z="1.334697E-07" w="0.7071068" />
+                <Scale x="0.6" y="0.5" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="44" guid="e7b1138b-d956-4cab-bbbe-fa33ec7a03c7">
+            <Transform>
+                <Position x="-2.8" y="-0.2500048" z="-2.8" />
+                <Rotation x="4.847028E-07" y="0.7071068" z="-4.847028E-07" w="-0.7071068" />
+                <Scale x="0.6" y="0.5" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="sh - pure metal" id="958094854" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="15" guid="8c8f8707-17a8-4e3a-9ef7-777fca42d2ce">
+            <Transform>
+                <Position x="-1.14962" y="1.099999" z="-0.008711038" />
+                <Rotation x="-0.4777236" y="-0.5213249" z="-0.5213249" w="0.4777247" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="叉叔开直升机（小木块）" id="1627027872" />
+            </Settings>
+            <Data />
+        </Block>
+    </Blocks>
+</Machine>

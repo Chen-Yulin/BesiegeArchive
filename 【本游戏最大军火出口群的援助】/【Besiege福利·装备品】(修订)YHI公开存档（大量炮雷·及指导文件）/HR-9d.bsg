@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="HR-9d">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="409.1631" y="-475.5997" z="6.146729E-08" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <String key="modLoader-machineData">MachineData
+</String>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="57" guid="9433e454-812d-4b10-92a0-6938a6762c74">
+            <Transform>
+                <Position x="2" y="500" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="0.9622356" y="0.9622356" z="0.9622356" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="0" guid="0e8a6b20-7607-4efc-b406-54c6ad3ead95">
+            <Transform>
+                <Position x="2" y="500" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="23" guid="20db3ee6-ea66-4a8b-a6b2-c56c8afcdd09">
+            <Transform>
+                <Position x="2.947357" y="498.6041" z="-8.592382E-06" />
+                <Rotation x="-0.6665495" y="0.2360382" z="0.2360369" w="-0.6665466" />
+                <Scale x="0.1000005" y="0.1000026" z="0.3000047" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="27" guid="b76a034d-7dbc-4b5b-a935-69f18137848a">
+            <Transform>
+                <Position x="3.262024" y="498.9927" z="-1.862645E-09" />
+                <Rotation x="-0.6665483" y="0.2360369" z="0.2360369" w="-0.6665483" />
+                <Scale x="0.200001" y="0.200005" z="0.5000111" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-detach">Backslash</StringArray>
+                <Boolean key="bmt-grab-static">True</Boolean>
+                <Boolean key="bmt-grab-static-only">False</Boolean>
+                <Boolean key="bmt-auto-grab">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="27" guid="ce4af1db-b33f-4f2f-b873-b28cf6bceca5">
+            <Transform>
+                <Position x="2" y="499.5" z="-1.862645E-09" />
+                <Rotation x="0.6382241" y="0.3044175" z="0.3044175" w="0.6382241" />
+                <Scale x="0.4000032" y="0.2000049" z="1.00002" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-detach">Y</StringArray>
+                <Boolean key="bmt-grab-static">False</Boolean>
+                <Boolean key="bmt-grab-static-only">False</Boolean>
+                <Boolean key="bmt-auto-grab">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="59" guid="3e2a485c-66b0-4572-b5b9-f62fe2e48677">
+            <Transform>
+                <Position x="3.339813" y="498.9298" z="-0.09999996" />
+                <Rotation x="0.8000534" y="0.06227532" z="-0.5706001" w="-0.174505" />
+                <Scale x="0.1600074" y="0.1000124" z="0.1600161" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-launch">Y</StringArray>
+                <Single key="bmt-duration">1000</Single>
+                <Single key="bmt-strength">40</Single>
+                <Single key="bmt-charge">20</Single>
+                <Color key="bmt-colour">
+                    <R>1</R>
+                    <G>0.3019608</G>
+                    <B>0</B>
+                </Color>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

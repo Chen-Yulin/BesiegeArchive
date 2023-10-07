@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="SH3050`1a2">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="6" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <String key="modLoader-machineData">MachineData
+</String>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="18" guid="6d9094b8-de02-445e-a538-e211278de3fe">
+            <Transform>
+                <Position x="0.9999995" y="-0.6999998" z="0.3" />
+                <Rotation x="0.4999999" y="-0.5000001" z="0.4999999" w="-0.5000001" />
+                <Scale x="0.4" y="0.04" z="2.1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-extend">U</StringArray>
+                <Boolean key="bmt-toggle">True</Boolean>
+                <Single key="bmt-speed">2</Single>
+                <Boolean key="preextended">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="18" guid="4e9a2e7f-56f9-40d6-9467-6ae5906b7c8c">
+            <Transform>
+                <Position x="0.9999996" y="-0.6999998" z="-0.3" />
+                <Rotation x="0.4999999" y="-0.5000001" z="0.4999999" w="-0.5000001" />
+                <Scale x="0.4" y="0.04" z="2.1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-extend">U</StringArray>
+                <Boolean key="bmt-toggle">True</Boolean>
+                <Single key="bmt-speed">2</Single>
+                <Boolean key="preextended">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="22" guid="6138ea82-6400-4f13-90b2-8f3ea698cd37">
+            <Transform>
+                <Position x="2.55" y="-0.6999998" z="-0.2999999" />
+                <Rotation x="-0.4999999" y="0.4999999" z="-0.5000001" w="0.5000001" />
+                <Scale x="0.4" y="0.05" z="2.2" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Single key="bmt-speed">0</Single>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="35" guid="948a7880-d1a8-4898-ab84-5c154849d59e">
+            <Transform>
+                <Position x="0" y="-0.5" z="0" />
+                <Rotation x="0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="0.4000014" z="0.4000014" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Single key="bmt-mass">2</Single>
+            </Data>
+        </Block>
+        <Block id="11" guid="91449cc8-0d3c-4edf-a298-e64878e5be48">
+            <Transform>
+                <Position x="-0.7056169" y="-0.4751358" z="2.980232E-08" />
+                <Rotation x="-0.4999999" y="-0.4999999" z="0.5000001" w="-0.5000001" />
+                <Scale x="0.4" y="1" z="0.4" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-shoot">Y</StringArray>
+                <Single key="bmt-strength">30.5</Single>
+            </Data>
+        </Block>
+        <Block id="7" guid="9ce40b58-82ae-4773-b13e-72e048fd50c9">
+            <Transform>
+                <Position x="4.25" y="-0.8999996" z="0.7999998" />
+                <Rotation x="-0.4999999" y="0.4999999" z="0.5000001" w="-0.5000002" />
+                <Scale x="1.000006" y="1.2" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>-9.536748E-08</X>
+                    <Y>-1.333342</Y>
+                    <Z>-5.960464E-07</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="7" guid="3f7f3cab-d19b-426c-92ef-15522bf1d5f9">
+            <Transform>
+                <Position x="5.25" y="-0.8999996" z="-0.8000052" />
+                <Rotation x="0.4999999" y="-0.4999999" z="0.5000001" w="-0.5000002" />
+                <Scale x="1.000007" y="1.2" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>-4.768344E-08</X>
+                    <Y>-0.6666672</Y>
+                    <Z>0.5000003</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="7" guid="1cbd10cb-0ca8-4621-bdbe-1866b5bcce70">
+            <Transform>
+                <Position x="5.25" y="-0.8999996" z="0.8000051" />
+                <Rotation x="0.4999999" y="-0.4999999" z="0.5000001" w="-0.5000002" />
+                <Scale x="1.000006" y="1.2" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>4.768349E-08</X>
+                    <Y>0.6666676</Y>
+                    <Z>0.4999997</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="7" guid="dac9fd2b-4b82-479f-a5e9-9e3d16032088">
+            <Transform>
+                <Position x="4.25" y="-0.5" z="0.7999998" />
+                <Rotation x="-0.4999999" y="0.4999999" z="0.5000001" w="-0.5000002" />
+                <Scale x="1.000006" y="1.2" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>-9.536748E-08</X>
+                    <Y>-1.333342</Y>
+                    <Z>-5.960464E-07</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="7" guid="89b645b7-9247-4908-b1b4-61f9863899d9">
+            <Transform>
+                <Position x="5.25" y="-0.5" z="-0.8000052" />
+                <Rotation x="0.4999999" y="-0.4999999" z="0.5000001" w="-0.5000002" />
+                <Scale x="1.000007" y="1.2" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>-4.768344E-08</X>
+                    <Y>-0.6666672</Y>
+                    <Z>0.5000003</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="7" guid="056df7c0-080d-46d9-9898-d06de531de48">
+            <Transform>
+                <Position x="5.25" y="-0.5" z="0.8000051" />
+                <Rotation x="0.4999999" y="-0.4999999" z="0.5000001" w="-0.5000002" />
+                <Scale x="1.000006" y="1.2" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>4.768349E-08</X>
+                    <Y>0.6666676</Y>
+                    <Z>0.4999997</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="42" guid="b5a99f52-0024-44e6-981d-37f94d212eb5">
+            <Transform>
+                <Position x="4.75" y="-1.2" z="-0.8500102" />
+                <Rotation x="-0.7071068" y="2.51478E-07" z="-1.671844E-07" w="-0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="42" guid="e2d0ace9-a4f4-4b3d-99f0-e1e604251766">
+            <Transform>
+                <Position x="4.75" y="-1.2" z="0.8499994" />
+                <Rotation x="-0.7071068" y="-1.278436E-07" z="4.35499E-08" w="-0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="42" guid="15cc8f21-0c1f-4b48-83c0-35d382e0e9a9">
+            <Transform>
+                <Position x="4.75" y="-0.1999998" z="-0.8500102" />
+                <Rotation x="0.7071068" y="4.354988E-08" z="1.278436E-07" w="-0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="57" guid="e684e449-cc1b-4441-9396-ba16f40ad634">
+            <Transform>
+                <Position x="4.75" y="0.3000002" z="-0.8500102" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="0.975998" y="0.975998" z="0.975998" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1.41924</Single>
+                <Single key="bmt-y-scale">1.41924</Single>
+                <Single key="bmt-z-scale">1.41924</Single>
+            </Data>
+        </Block>
+        <Block id="57" guid="a41356a7-29cc-4102-aa6a-696ab0e205b5">
+            <Transform>
+                <Position x="4.75" y="0.3000002" z="0.8499994" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="0.9571322" y="0.9571322" z="0.9571322" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1.391807</Single>
+                <Single key="bmt-y-scale">1.391807</Single>
+                <Single key="bmt-z-scale">1.391807</Single>
+            </Data>
+        </Block>
+        <Block id="7" guid="64f755a6-af27-4fc6-ab4d-a7d4ca93d800">
+            <Transform>
+                <Position x="0.8500018" y="-0.6999998" z="-1.788139E-07" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071069" />
+                <Scale x="1" y="1.600023" z="1.000012" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>2.5</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="22" guid="8c4c26ea-0645-4a88-992e-6cbcad38b36a">
+            <Transform>
+                <Position x="2.55" y="-0.6999998" z="0.3" />
+                <Rotation x="-0.5000001" y="-0.5000001" z="-0.4999999" w="-0.4999999" />
+                <Scale x="0.4" y="0.05" z="2.2" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Single key="bmt-speed">0</Single>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">0.4</Single>
+                <Single key="bmt-y-scale">0.05</Single>
+                <Single key="bmt-z-scale">2.2</Single>
+                <Boolean key="flipped">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="22" guid="8ea11bc0-2c0d-4dbd-9bda-57b199f3b263">
+            <Transform>
+                <Position x="4.95" y="-0.6999998" z="0.3499994" />
+                <Rotation x="1.685874E-07" y="-1.264406E-07" z="0.7071068" w="-0.7071068" />
+                <Scale x="1.000019" y="1.2" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Single key="bmt-speed">0</Single>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1.000019</Single>
+                <Single key="bmt-y-scale">1.2</Single>
+                <Single key="bmt-z-scale">1</Single>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="22" guid="270dc1c5-28f4-4d0e-999b-ed04b7687632">
+            <Transform>
+                <Position x="4.95" y="-0.6999998" z="-0.3499995" />
+                <Rotation x="0.7071068" y="0.7071068" z="1.685874E-07" w="1.264406E-07" />
+                <Scale x="1.000015" y="1.2" z="1.000031" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Single key="bmt-speed">0</Single>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1.000015</Single>
+                <Single key="bmt-y-scale">1.2</Single>
+                <Single key="bmt-z-scale">1.000031</Single>
+                <Boolean key="flipped">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="28" guid="2490cbc2-02e8-43b7-a8df-50a38a1a4ce5">
+            <Transform>
+                <Position x="4.95" y="-0.6999998" z="-0.1500042" />
+                <Rotation x="0.4999999" y="-0.4999999" z="0.5000001" w="-0.5000002" />
+                <Scale x="1.000013" y="0.05" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-left">I</StringArray>
+                <StringArray key="bmt-right">K</StringArray>
+                <Single key="bmt-rotation-speed">0.24</Single>
+                <Boolean key="bmt-uselimits">True</Boolean>
+                <SingleArray key="bmt-limits">
+                    <Single>90</Single>
+                    <Single>10</Single>
+                </SingleArray>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1.000013</Single>
+                <Single key="bmt-y-scale">0.05</Single>
+                <Single key="bmt-z-scale">1</Single>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="28" guid="8a7ba0be-47cd-400c-a617-46a8dc76fbde">
+            <Transform>
+                <Position x="4.95" y="-0.6999998" z="0.1500043" />
+                <Rotation x="0.4999999" y="-0.4999999" z="0.5000001" w="-0.5000001" />
+                <Scale x="1" y="0.05" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-left">I</StringArray>
+                <StringArray key="bmt-right">K</StringArray>
+                <Single key="bmt-rotation-speed">0.24</Single>
+                <Boolean key="bmt-uselimits">True</Boolean>
+                <SingleArray key="bmt-limits">
+                    <Single>90</Single>
+                    <Single>10</Single>
+                </SingleArray>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1</Single>
+                <Single key="bmt-y-scale">0.05</Single>
+                <Single key="bmt-z-scale">1</Single>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="42" guid="6639a95c-d028-44bf-900b-effabd7706ff">
+            <Transform>
+                <Position x="4.75" y="-0.1999998" z="0.8499994" />
+                <Rotation x="0.7071068" y="-1.671844E-07" z="-2.514781E-07" w="-0.7071068" />
+                <Scale x="1" y="1.000001" z="1.000001" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="7" guid="21f9cc89-e981-4b66-ab86-4e13b406bad6">
+            <Transform>
+                <Position x="4.25" y="-0.5" z="-0.8000057" />
+                <Rotation x="-0.5000001" y="0.5000001" z="0.4999999" w="-0.4999999" />
+                <Scale x="1.00001" y="1.200007" z="1.00001" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>-2.145742E-07</X>
+                    <Y>0.6666717</Y>
+                    <Z>-1.500005</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="7" guid="f8188ad3-b168-4a57-ba75-82fc08303be0">
+            <Transform>
+                <Position x="4.25" y="-0.5" z="0.8000057" />
+                <Rotation x="-0.5000001" y="0.5000001" z="0.4999999" w="-0.4999999" />
+                <Scale x="1.00001" y="1.200007" z="1.00001" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>2.145743E-07</X>
+                    <Y>-0.6666712</Y>
+                    <Z>-1.500003</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="7" guid="9de0e387-05a3-4a8f-ae8b-13b5eb8d7463">
+            <Transform>
+                <Position x="4.25" y="-0.8999996" z="-0.8000057" />
+                <Rotation x="-0.5000001" y="0.5000001" z="0.4999999" w="-0.4999999" />
+                <Scale x="1.00001" y="1.200007" z="1.00001" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>-2.145743E-07</X>
+                    <Y>0.6666713</Y>
+                    <Z>-1.500004</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="7" guid="1e1afe24-2e71-43b3-af2e-c8146bb22f47">
+            <Transform>
+                <Position x="4.25" y="-0.8999996" z="0.8000057" />
+                <Rotation x="-0.5000001" y="0.5000001" z="0.4999999" w="-0.4999999" />
+                <Scale x="1.00001" y="1.200007" z="1.00001" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <Vector3 key="start-position">
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </Vector3>
+                <Vector3 key="end-position">
+                    <X>2.145743E-07</X>
+                    <Y>-0.6666712</Y>
+                    <Z>-1.500002</Z>
+                </Vector3>
+            </Data>
+        </Block>
+        <Block id="57" guid="0085d565-3678-465b-921b-05b3715bad22">
+            <Transform>
+                <Position x="4.75" y="-1.7" z="0.8499994" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="0.955157" y="0.955157" z="0.955157" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1.388935</Single>
+                <Single key="bmt-y-scale">1.388935</Single>
+                <Single key="bmt-z-scale">1.388935</Single>
+            </Data>
+        </Block>
+        <Block id="57" guid="6712fe44-33f1-4e7b-87eb-2e06780d777f">
+            <Transform>
+                <Position x="4.75" y="-1.7" z="-0.8500102" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="0.985994" y="0.985994" z="0.985994" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1.433776</Single>
+                <Single key="bmt-y-scale">1.433776</Single>
+                <Single key="bmt-z-scale">1.433776</Single>
+            </Data>
+        </Block>
+        <Block id="57" guid="bfec11c6-40b8-41d2-9730-afbd32f89fb4">
+            <Transform>
+                <Position x="4.75" y="-0.1999998" z="1.85" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="0.9875824" y="0.9875824" z="0.9875824" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1.436086</Single>
+                <Single key="bmt-y-scale">1.436086</Single>
+                <Single key="bmt-z-scale">1.436086</Single>
+            </Data>
+        </Block>
+        <Block id="57" guid="858109ca-e313-4bd2-9ada-e6793bdcfb09">
+            <Transform>
+                <Position x="4.75" y="-0.1999998" z="-1.85001" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="0.985173" y="0.985173" z="0.985173" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1.432582</Single>
+                <Single key="bmt-y-scale">1.432582</Single>
+                <Single key="bmt-z-scale">1.432582</Single>
+            </Data>
+        </Block>
+        <Block id="42" guid="6df9143f-a096-4535-a6ae-68b4f8bdfe02">
+            <Transform>
+                <Position x="4.75" y="-0.2999997" z="-1.35001" />
+                <Rotation x="-2.781812E-08" y="-1" z="-2.980233E-08" w="-2.086163E-07" />
+                <Scale x="1" y="0.2" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="42" guid="452cd705-73de-4211-86e1-4f89fc218f1d">
+            <Transform>
+                <Position x="4.75" y="-0.2999997" z="1.35" />
+                <Rotation x="2.98023E-08" y="-2.086162E-07" z="-2.781812E-08" w="-1" />
+                <Scale x="1" y="0.2" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="57" guid="5777424f-9999-414f-9680-592a470ef1d6">
+            <Transform>
+                <Position x="4.75" y="-1.2" z="1.85" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="0.9806886" y="0.9806886" z="0.9806886" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1.426061</Single>
+                <Single key="bmt-y-scale">1.426061</Single>
+                <Single key="bmt-z-scale">1.426061</Single>
+            </Data>
+        </Block>
+        <Block id="57" guid="41d68ea4-718c-484b-a965-0b98f7ef39bd">
+            <Transform>
+                <Position x="4.75" y="-1.2" z="-1.85001" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="0.9781165" y="0.9781165" z="0.9781165" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+                <Boolean key="bmt-scale">False</Boolean>
+                <Single key="bmt-x-scale">1.422321</Single>
+                <Single key="bmt-y-scale">1.422321</Single>
+                <Single key="bmt-z-scale">1.422321</Single>
+            </Data>
+        </Block>
+        <Block id="42" guid="7445f051-20e7-4747-8125-fcbdfa819455">
+            <Transform>
+                <Position x="4.75" y="-1.1" z="-1.35001" />
+                <Rotation x="-2.781812E-08" y="-1" z="-2.980233E-08" w="-2.086163E-07" />
+                <Scale x="1" y="0.2" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data />
+        </Block>
+        <Block id="42" guid="0339bfda-e969-49fa-b7b8-f6208366228f">
+            <Transform>
+                <Position x="4.75" y="-1.1" z="1.35" />
+                <Rotation x="2.98023E-08" y="-2.086162E-07" z="-2.781812E-08" w="-1" />
+                <Scale x="1" y="0.2" z="1" />
+            </Transform>
+            <Settings>
+                <Skin name="default" id="default" />
+            </Settings>
+            <Data />
+        </Block>
+    </Blocks>
+</Machine>

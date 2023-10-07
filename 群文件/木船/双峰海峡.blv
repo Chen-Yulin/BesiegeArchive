@@ -1,0 +1,398 @@
+﻿<Level>
+	<LevelSettings EditorVersion="0.8" UseVoting="False" CurtainMode="False" AllowExcessPlayers="False" HidePlayerLabels="False" AllowCopyMachine="False" allowModMachines="True" Environment="None" MaxPlayers="8">
+		<DisableFire Enabled="False" Locked="False" />
+		<DisableExplosions Enabled="False" Locked="False" />
+		<DisableProjectiles Enabled="False" Locked="False" />
+		<ZeroG Enabled="False" Locked="True" />
+		<InfiniteAmmo Enabled="True" Locked="False" />
+		<Invincibility Enabled="False" Locked="True" />
+		<ExplosiveCannonballs Enabled="True" Locked="False" />
+		<DisableBounds Enabled="False" Locked="False" />
+		<BlockLimiter limit="500" />
+	</LevelSettings>
+	<CustomData>
+		<StringArray key="requiredMods" />
+	</CustomData>
+	<Objects>
+		<Object ID="3526391776096378126" Prefab="9024">
+			<Position x="-3" y="0" z="-995" />
+			<Scale x="2000" y="22" z="4" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>1</R>
+					<G>0.0627451</G>
+					<B>0.0627451</B>
+				</Color>
+				<Integer key="bmt-friction-mode">1</Integer>
+				<Boolean key="bmt-lel-enable-physics">False</Boolean>
+			</Data>
+		</Object>
+		<Object ID="-8000305840780665431" Prefab="9024">
+			<Position x="995" y="0" z="5" />
+			<Scale x="4" y="22" z="2000" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>1</R>
+					<G>0.0627451</G>
+					<B>0.0627451</B>
+				</Color>
+				<Boolean key="bmt-lel-enable-physics">False</Boolean>
+			</Data>
+		</Object>
+		<Object ID="-6709759009244024982" Prefab="9024">
+			<Position x="-3" y="0.0006516833" z="1005" />
+			<Rotation x="8.526511E-14" y="1" z="-3.258416E-07" w="0" />
+			<Scale x="2000" y="22" z="4" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>1</R>
+					<G>0.0627451</G>
+					<B>0.0627451</B>
+				</Color>
+				<Integer key="bmt-friction-mode">1</Integer>
+				<String key="bmt-lel-name">纹理方块</String>
+				<Boolean key="bmt-lel-enable-physics">False</Boolean>
+			</Data>
+		</Object>
+		<Object ID="-6143570588661337380" Prefab="9024">
+			<Position x="-1001" y="0" z="5" />
+			<Rotation x="8.526511E-14" y="1" z="-3.258416E-07" w="0" />
+			<Scale x="4" y="22" z="2000" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>1</R>
+					<G>0.0627451</G>
+					<B>0.0627451</B>
+				</Color>
+				<String key="bmt-lel-name">纹理方块</String>
+				<Boolean key="bmt-lel-enable-physics">False</Boolean>
+			</Data>
+		</Object>
+		<Object ID="-2697408242481808538" Prefab="2024">
+			<Position x="129" y="1" z="-157" />
+			<Scale x="8" y="30" z="10" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+			</Data>
+		</Object>
+		<Object ID="-8517650541433373881" Prefab="2024">
+			<Position x="-229" y="1" z="20" />
+			<Rotation x="-1.19791E-13" y="-0.0002406284" z="7.831467E-11" w="1" />
+			<Scale x="5" y="25" z="10" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="-4271213279176550865" Prefab="2024">
+			<Position x="-181" y="1" z="227" />
+			<Rotation x="-3.522393E-14" y="-0.9239853" z="3.010726E-07" w="0.382428" />
+			<Scale x="6" y="25" z="10" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="2930306525726513511" Prefab="2024">
+			<Position x="-234" y="-5" z="-115" />
+			<Rotation x="-8.410843E-15" y="-0.9807159" z="3.195578E-07" w="-0.1954391" />
+			<Scale x="6" y="25" z="10" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="6288253736346790727" Prefab="2024">
+			<Position x="198" y="1" z="120" />
+			<Rotation x="8.320422E-15" y="0.1951658" z="-6.359311E-08" w="0.9807703" />
+			<Scale x="8" y="30" z="10" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="1136977415792903154" Prefab="7000">
+			<Position x="-4" y="0" z="6" />
+			<Scale x="2000" y="0.8" z="2000" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>1</R>
+					<G>1</G>
+					<B>0.945098</B>
+				</Color>
+				<Boolean key="bmt-Disable Texture">True</Boolean>
+				<Boolean key="bmt-lel-enable-physics">False</Boolean>
+			</Data>
+		</Object>
+		<Object ID="6694830596645340152" Prefab="9001">
+			<Position x="-21" y="23.072" z="-863" />
+			<Data />
+		</Object>
+		<Object ID="6011298544040454545" Prefab="9001">
+			<Position x="-26" y="23.072" z="723" />
+			<Data />
+		</Object>
+		<Object ID="-1142058875770888765" Prefab="9001">
+			<Position x="-80" y="23.072" z="-859" />
+			<Data />
+		</Object>
+		<Object ID="-1872700433642689187" Prefab="9001">
+			<Position x="20" y="23.072" z="723" />
+			<Data />
+		</Object>
+		<Object ID="8111601119199236412" Prefab="9001">
+			<Position x="-137" y="23.072" z="-857" />
+			<Data />
+		</Object>
+		<Object ID="6989463339678697336" Prefab="9001">
+			<Position x="67" y="23.072" z="719" />
+			<Data />
+		</Object>
+		<Object ID="1331737169357701307" Prefab="9001">
+			<Position x="-184" y="23.072" z="-855" />
+			<Data />
+		</Object>
+		<Object ID="2362901698318460166" Prefab="9001">
+			<Position x="103" y="23.072" z="718" />
+			<Data />
+		</Object>
+		<Object ID="7085531702831502129" Prefab="2024">
+			<Position x="-322" y="-5" z="117" />
+			<Rotation x="-8.410843E-15" y="-0.9807159" z="3.195578E-07" w="-0.1954391" />
+			<Scale x="10" y="25" z="10" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="5437215498429012065" Prefab="2024">
+			<Position x="568" y="-5" z="-317" />
+			<Rotation x="-1.070597E-14" y="-0.9808311" z="3.195954E-07" w="0.1948595" />
+			<Scale x="3" y="15" z="4" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="2025576677391375591" Prefab="2024">
+			<Position x="864.3854" y="-5.000044" z="-69.53598" />
+			<Rotation x="4.96064E-14" y="-0.9807398" z="3.195657E-07" w="-0.1953188" />
+			<Scale x="3" y="15" z="4" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="1593348093768316128" Prefab="2024">
+			<Position x="667.3854" y="-5.000044" z="246.464" />
+			<Rotation x="4.96064E-14" y="-0.9807398" z="3.195657E-07" w="-0.1953188" />
+			<Scale x="3" y="15" z="4" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="8064576798074016165" Prefab="2024">
+			<Position x="434.3854" y="-5.000044" z="460.464" />
+			<Rotation x="7.000731E-14" y="-0.9808072" z="3.195876E-07" w="0.1949798" />
+			<Scale x="3" y="10" z="2" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="-1515972520319704296" Prefab="2024">
+			<Position x="-402.6146" y="-5.000044" z="-415.536" />
+			<Rotation x="7.136494E-14" y="-0.9238932" z="3.010426E-07" w="0.3826504" />
+			<Scale x="3" y="11" z="2" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="1946704094554176389" Prefab="2024">
+			<Position x="-584.6146" y="-5.000044" z="-175.536" />
+			<Rotation x="6.500703E-14" y="-0.8314467" z="2.709197E-07" w="0.5556045" />
+			<Scale x="3" y="10" z="2" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="-1047592693629126483" Prefab="2024">
+			<Position x="-623.6146" y="-5.000044" z="-389.536" />
+			<Rotation x="7.136494E-14" y="-0.9238932" z="3.010426E-07" w="0.3826504" />
+			<Scale x="3" y="9" z="2" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="-192170617844729345" Prefab="2024">
+			<Position x="-947.6146" y="-5.000044" z="20.46402" />
+			<Rotation x="6.990965E-14" y="-0.5555342" z="1.810159E-07" w="0.8314937" />
+			<Scale x="3" y="10" z="5" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="-4316974859103109609" Prefab="2024">
+			<Position x="-847.6146" y="-5.000044" z="530.464" />
+			<Rotation x="2.967605E-15" y="0.3827946" z="-1.247304E-07" w="0.9238335" />
+			<Scale x="3" y="10" z="5" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="-5503423248319405433" Prefab="2024">
+			<Position x="-481.0207" y="-4.99999" z="884.6917" />
+			<Rotation x="3.253638E-14" y="-0.1952031" z="6.360506E-08" w="0.9807628" />
+			<Scale x="3" y="10" z="2" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="1953056223072359954" Prefab="2024">
+			<Position x="-298.2352" y="-5.000098" z="766.7661" />
+			<Scale x="3" y="9" z="2" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="-4552312445884426228" Prefab="2024">
+			<Position x="-589.6146" y="-5.000044" z="690.464" />
+			<Rotation x="3.253638E-14" y="-0.1952031" z="6.360506E-08" w="0.9807628" />
+			<Scale x="3" y="8" z="2" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="-469751644464410188" Prefab="2024">
+			<Position x="-120.2352" y="-5.000098" z="520.7661" />
+			<Scale x="2" y="7" z="1.5" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="-2028924505388033306" Prefab="2024">
+			<Position x="-161.2352" y="-5.000098" z="659.7661" />
+			<Scale x="2" y="8" z="1.5" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="6280945131552178412" Prefab="2024">
+			<Position x="-415.6146" y="-5.000044" z="-776.536" />
+			<Rotation x="6.712958E-14" y="-0.8314467" z="2.709197E-07" w="0.5556045" />
+			<Scale x="3" y="10" z="2" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+		<Object ID="-8265797838401713334" Prefab="2024">
+			<Position x="-269.6146" y="-5.000044" z="-999.536" />
+			<Rotation x="7.136494E-14" y="-0.9238932" z="3.010426E-07" w="0.3826504" />
+			<Scale x="5" y="8" z="2" />
+			<Data>
+				<Color key="bmt-colour">
+					<R>0.5372549</R>
+					<G>1</G>
+					<B>0</B>
+				</Color>
+				<String key="bmt-lel-name">低丘</String>
+			</Data>
+		</Object>
+	</Objects>
+</Level>

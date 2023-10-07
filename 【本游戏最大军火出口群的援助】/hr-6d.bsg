@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" name="HR-6d">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="6" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <String key="modLoader-machineData">MachineData
+</String>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="27" guid="393722aa-c482-4e38-b823-350d0d1b15c4">
+            <Transform>
+                <Position x="-0.5000002" y="10" z="-1.47514E-07" />
+                <Rotation x="-1.685874E-07" y="0.7071069" z="-1.896608E-07" w="-0.7071066" />
+                <Scale x="0.1" y="0.3" z="0.6" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-detach">Backslash</StringArray>
+                <Boolean key="bmt-grab-static">False</Boolean>
+                <Boolean key="bmt-grab-static-only">False</Boolean>
+                <Boolean key="bmt-auto-grab">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="23" guid="670b5a27-9e3d-4d35-96b8-c90716d7b72c">
+            <Transform>
+                <Position x="-1.5" y="9.999994" z="-1.917769E-06" />
+                <Rotation x="-0.500002" y="-0.4999989" z="-0.499998" w="-0.5000011" />
+                <Scale x="0.1" y="0.1" z="0.2" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="59" guid="9fe3ca38-dba0-4f40-9d98-01caea9a589b">
+            <Transform>
+                <Position x="-0.3" y="9.502003" z="0" />
+                <Rotation x="0.5" y="-0.5" z="-0.5" w="-0.5" />
+                <Scale x="0.2" y="0.5" z="0.5" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-launch">Y</StringArray>
+                <Single key="bmt-duration">2540</Single>
+                <Single key="bmt-strength">20</Single>
+                <Single key="bmt-charge">1.5</Single>
+                <Color key="bmt-colour">
+                    <R>1</R>
+                    <G>0.3019608</G>
+                    <B>0</B>
+                </Color>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>
