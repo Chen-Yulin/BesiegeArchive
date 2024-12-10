@@ -3,28 +3,183 @@
 <Machine version="1" bsgVersion="1.3" name="p0">
     <!--The machine's position and rotation.-->
     <Global>
-        <Position x="24.56566" y="19.89395" z="3.942698" />
-        <Rotation x="-1.33042E-10" y="0.7071263" z="-6.176835E-07" w="-0.7070873" />
+        <Position x="0" y="5.05" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
     </Global>
     <!--The machine's additional data or modded data.-->
     <Data>
-        <StringArray key="requiredMods" />
+        <StringArray key="requiredMods">24db7500-6caa-471c-8ba6-c43c0be5fd1d~L~0.9.4~WW2Naval</StringArray>
     </Data>
     <!--The machine's blocks.-->
     <Blocks>
-        <Block id="63" guid="ce1d3c24-9766-4718-8e51-649e0359ece4">
+        <Block id="0" guid="8a380fca-5e05-483b-bb64-6a41cd38a2fb">
             <Transform>
-                <Position x="0.1479978" y="-9.890099" z="19.86448" />
-                <Rotation x="-0.0006664806" y="-0.9999998" z="4.310126E-07" w="2.679229E-05" />
-                <Scale x="0.4700001" y="1.565802" z="1.75" />
+                <Position x="0" y="0" z="3" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="1004" guid="b9ec50e2-5960-40ed-af0c-41227e89d97a" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="5">
+            <Transform>
+                <Position x="0" y="0.5" z="0" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
-                <Single key="bmt-WW2Thickness">90</Single>
-                <Integer key="bmt-Wood Type">0</Integer>
-                <String key="bmt-HangarGroup">0</String>
-                <Boolean key="bmt-WW2WaveToggle">False</Boolean>
-                <Single key="bmt-WaveSize">2</Single>
-                <Integer key="length">2</Integer>
+                <StringArray key="bmt-SwitchActive">Alpha1</StringArray>
+                <StringArray key="bmt-FPV">Keypad1</StringArray>
+                <String key="bmt-AircraftGroup">1</String>
+                <Integer key="bmt-Aircraft Type">0</Integer>
+                <Integer key="bmt-TorpedoType">0</Integer>
+                <Integer key="bmt-BombType">0</Integer>
+                <Integer key="bmt-FighterType">0</Integer>
+                <Integer key="bmt-Rank">0</Integer>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1004" guid="0c562bab-9930-48f0-a3ab-9e8c0dec26ac" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="5">
+            <Transform>
+                <Position x="3" y="0.5" z="0" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-SwitchActive">Alpha1</StringArray>
+                <StringArray key="bmt-FPV">Keypad2</StringArray>
+                <String key="bmt-AircraftGroup">1</String>
+                <Integer key="bmt-Aircraft Type">1</Integer>
+                <Integer key="bmt-TorpedoType">1</Integer>
+                <Integer key="bmt-BombType">0</Integer>
+                <Integer key="bmt-FighterType">0</Integer>
+                <Integer key="bmt-Rank">0</Integer>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1004" guid="da748408-1df1-446e-926d-f8beb9c4cfed" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="5">
+            <Transform>
+                <Position x="6" y="0.5" z="0" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-SwitchActive">Alpha1</StringArray>
+                <StringArray key="bmt-FPV">Keypad3</StringArray>
+                <String key="bmt-AircraftGroup">1</String>
+                <Integer key="bmt-Aircraft Type">2</Integer>
+                <Integer key="bmt-TorpedoType">0</Integer>
+                <Integer key="bmt-BombType">1</Integer>
+                <Integer key="bmt-FighterType">0</Integer>
+                <Integer key="bmt-Rank">0</Integer>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1004" guid="933afd24-37e8-404f-8b64-2d66c2a51aab" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="5">
+            <Transform>
+                <Position x="3" y="0.5" z="-3" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-SwitchActive">Alpha1</StringArray>
+                <StringArray key="bmt-FPV">Keypad5</StringArray>
+                <String key="bmt-AircraftGroup">1</String>
+                <Integer key="bmt-Aircraft Type">1</Integer>
+                <Integer key="bmt-TorpedoType">0</Integer>
+                <Integer key="bmt-BombType">0</Integer>
+                <Integer key="bmt-FighterType">0</Integer>
+                <Integer key="bmt-Rank">0</Integer>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1004" guid="90a94aa5-d2b2-452f-b752-8dc1a49b6e87" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="5">
+            <Transform>
+                <Position x="6" y="0.5" z="-3" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-SwitchActive">Alpha1</StringArray>
+                <StringArray key="bmt-FPV">Keypad6</StringArray>
+                <String key="bmt-AircraftGroup">1</String>
+                <Integer key="bmt-Aircraft Type">2</Integer>
+                <Integer key="bmt-TorpedoType">0</Integer>
+                <Integer key="bmt-BombType">0</Integer>
+                <Integer key="bmt-FighterType">0</Integer>
+                <Integer key="bmt-Rank">0</Integer>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1004" guid="cf85c546-cbcd-427c-aa38-89a11c24b0f4" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="5">
+            <Transform>
+                <Position x="0" y="0.5" z="-3" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-SwitchActive">Alpha1</StringArray>
+                <StringArray key="bmt-FPV">Keypad4</StringArray>
+                <String key="bmt-AircraftGroup">1</String>
+                <Integer key="bmt-Aircraft Type">0</Integer>
+                <Integer key="bmt-TorpedoType">0</Integer>
+                <Integer key="bmt-BombType">0</Integer>
+                <Integer key="bmt-FighterType">1</Integer>
+                <Integer key="bmt-Rank">0</Integer>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1004" guid="8f430c2f-b6a0-4cc6-8fd1-75eb45131b25" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="5">
+            <Transform>
+                <Position x="3" y="0.5" z="-6" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-SwitchActive">Alpha1</StringArray>
+                <StringArray key="bmt-FPV">Keypad8</StringArray>
+                <String key="bmt-AircraftGroup">1</String>
+                <Integer key="bmt-Aircraft Type">1</Integer>
+                <Integer key="bmt-TorpedoType">2</Integer>
+                <Integer key="bmt-BombType">0</Integer>
+                <Integer key="bmt-FighterType">0</Integer>
+                <Integer key="bmt-Rank">0</Integer>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1004" guid="06244d0f-e4bb-4a76-a27f-002fb574df9a" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="5">
+            <Transform>
+                <Position x="6" y="0.5" z="-6" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-SwitchActive">Alpha1</StringArray>
+                <StringArray key="bmt-FPV">Keypad9</StringArray>
+                <String key="bmt-AircraftGroup">1</String>
+                <Integer key="bmt-Aircraft Type">2</Integer>
+                <Integer key="bmt-TorpedoType">0</Integer>
+                <Integer key="bmt-BombType">2</Integer>
+                <Integer key="bmt-FighterType">0</Integer>
+                <Integer key="bmt-Rank">0</Integer>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1004" guid="777ec3ba-283f-4e29-987c-695e758efca7" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="5">
+            <Transform>
+                <Position x="0" y="0.5" z="-6" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-SwitchActive">Alpha1</StringArray>
+                <StringArray key="bmt-FPV">Keypad7</StringArray>
+                <String key="bmt-AircraftGroup">1</String>
+                <Integer key="bmt-Aircraft Type">0</Integer>
+                <Integer key="bmt-TorpedoType">0</Integer>
+                <Integer key="bmt-BombType">0</Integer>
+                <Integer key="bmt-FighterType">2</Integer>
+                <Integer key="bmt-Rank">0</Integer>
+                <Boolean key="flipped">False</Boolean>
             </Data>
         </Block>
     </Blocks>

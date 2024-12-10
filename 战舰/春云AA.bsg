@@ -8,7 +8,7 @@
     </Global>
     <!--The machine's additional data or modded data.-->
     <Data>
-        <StringArray key="requiredMods">24db7500-6caa-471c-8ba6-c43c0be5fd1d~L~0.9.0~WW2Naval</StringArray>
+        <StringArray key="requiredMods">24db7500-6caa-471c-8ba6-c43c0be5fd1d~L~0.9.31~WW2Naval</StringArray>
     </Data>
     <!--The machine's blocks.-->
     <Blocks>
@@ -19,6 +19,7 @@
                 <Scale x="1" y="1" z="1" />
             </Transform>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <String key="bmt-TransformHolder" />
             </Data>
         </Block>
@@ -32,6 +33,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -51,6 +53,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -70,6 +73,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -89,6 +93,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -108,6 +113,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -137,8 +143,9 @@
                     <String>Message=r-f3</String>
                     <String>Use=True</String>
                 </StringArray>
-                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Single key="bmt-rotation-speed">0.5</Single>
+                <Single key="bmt-tension">1</Single>
+                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Boolean key="bmt-uselimits">True</Boolean>
                 <SingleArray key="bmt-limits">
                     <Single>135</Single>
@@ -207,10 +214,10 @@
                 <Vector3 key="end-position">
                     <X>2.038776E-07</X>
                     <Y>1.326123E-07</Y>
-                    <Z>-2.0595</Z>
+                    <Z>-2.059499</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
-                    <X>2.273984E-07</X>
+                    <X>2.273939E-07</X>
                     <Y>180</Y>
                     <Z>250.3922</Z>
                 </Vector3>
@@ -241,8 +248,9 @@
                     <String>Message=d-f3</String>
                     <String>Use=True</String>
                 </StringArray>
-                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Single key="bmt-rotation-speed">1</Single>
+                <Single key="bmt-tension">1</Single>
+                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Boolean key="bmt-uselimits">True</Boolean>
                 <SingleArray key="bmt-limits">
                     <Single>90</Single>
@@ -330,8 +338,8 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-position">
-                    <X>-0.2430978</X>
-                    <Y>7.193601E-08</Y>
+                    <X>-0.2430979</X>
+                    <Y>7.193604E-08</Y>
                     <Z>-2.184367E-08</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -356,6 +364,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -375,6 +384,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -610,8 +620,10 @@
                 <Skin name="Al-Thunder" id="1486627734" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">0</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="bmt-auto-brake">True</Boolean>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Single key="bmt-WW2TurretSize">1</Single>
                 <Single key="bmt-WW2Depth">1.8</Single>
@@ -666,7 +678,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>-0.04868854</X>
-                    <Y>2.758538E-05</Y>
+                    <Y>2.759059E-05</Y>
                     <Z>-3.258917E-09</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -691,6 +703,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -710,6 +723,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -809,7 +823,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>0.3466427</X>
-                    <Y>8.345326E-08</Y>
+                    <Y>8.345329E-08</Y>
                     <Z>5.533743E-08</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -834,6 +848,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -861,7 +876,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>0.3466434</X>
-                    <Y>8.34533E-08</Y>
+                    <Y>8.345333E-08</Y>
                     <Z>2.957868E-08</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -886,6 +901,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -913,7 +929,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>0.1597772</X>
-                    <Y>8.346756E-08</Y>
+                    <Y>8.346762E-08</Y>
                     <Z>2.555867E-08</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -938,6 +954,7 @@
                 <Skin name="Al-Taupe" id="1187758603" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -957,6 +974,7 @@
                 <Skin name="Al-Thunder" id="1486627734" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -976,6 +994,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -1008,9 +1027,9 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-position">
-                    <X>-2.146105E-07</X>
-                    <Y>1.350213</Y>
-                    <Z>-0.0001075864</Z>
+                    <X>-2.146107E-07</X>
+                    <Y>1.350214</Y>
+                    <Z>-0.0001079837</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
                     <X>1.024528E-05</X>
@@ -1034,6 +1053,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -1116,8 +1136,10 @@
                 <Skin name="Al-Thunder" id="1486627734" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">0</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="bmt-auto-brake">True</Boolean>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Single key="bmt-WW2TurretSize">1</Single>
                 <Single key="bmt-WW2Depth">1.688351</Single>
@@ -1148,8 +1170,9 @@
                     <String>Equals</String>
                     <String>Message=r-f1</String>
                 </StringArray>
-                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Single key="bmt-rotation-speed">0.8</Single>
+                <Single key="bmt-tension">1</Single>
+                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Boolean key="bmt-uselimits">False</Boolean>
                 <SingleArray key="bmt-limits">
                     <Single>135</Single>
@@ -1383,7 +1406,7 @@
                 </Vector3>
                 <Vector3 key="start-rotation">
                     <X>-3.711139E-05</X>
-                    <Y>5.008958E-06</Y>
+                    <Y>5.008957E-06</Y>
                     <Z>250.3922</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
@@ -1416,8 +1439,8 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-position">
-                    <X>-0.2431127</X>
-                    <Y>1.702598E-07</Y>
+                    <X>-0.2431128</X>
+                    <Y>1.702599E-07</Y>
                     <Z>2.184367E-08</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -1536,8 +1559,9 @@
                     <String>Message=d-f5</String>
                     <String>Use=True</String>
                 </StringArray>
-                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Single key="bmt-rotation-speed">1</Single>
+                <Single key="bmt-tension">1</Single>
+                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Boolean key="bmt-uselimits">True</Boolean>
                 <SingleArray key="bmt-limits">
                     <Single>90</Single>
@@ -1651,6 +1675,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -1714,6 +1739,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -1747,7 +1773,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>-0.04868854</X>
-                    <Y>2.759059E-05</Y>
+                    <Y>2.75958E-05</Y>
                     <Z>-1.620554E-09</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -1782,8 +1808,9 @@
                     <String>Message=r-f5</String>
                     <String>Use=True</String>
                 </StringArray>
-                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Single key="bmt-rotation-speed">0.5</Single>
+                <Single key="bmt-tension">1</Single>
+                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Boolean key="bmt-uselimits">True</Boolean>
                 <SingleArray key="bmt-limits">
                     <Single>135</Single>
@@ -1803,8 +1830,10 @@
                 <Skin name="Al-Thunder" id="1486627734" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">0</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="bmt-auto-brake">True</Boolean>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Single key="bmt-WW2TurretSize">1</Single>
                 <Single key="bmt-WW2Depth">1.6</Single>
@@ -1989,7 +2018,7 @@
                     <Z>-2.059526</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
-                    <X>-3.711129E-05</X>
+                    <X>-3.71113E-05</X>
                     <Y>5.008927E-06</Y>
                     <Z>250.3922</Z>
                 </Vector3>
@@ -2023,8 +2052,8 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-position">
-                    <X>-0.2430978</X>
-                    <Y>1.702494E-07</Y>
+                    <X>-0.2430979</X>
+                    <Y>1.702495E-07</Y>
                     <Z>2.184367E-08</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -2143,8 +2172,9 @@
                     <String>Message=d-f1</String>
                     <String>Use=True</String>
                 </StringArray>
-                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Single key="bmt-rotation-speed">1</Single>
+                <Single key="bmt-tension">1</Single>
+                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Boolean key="bmt-uselimits">True</Boolean>
                 <SingleArray key="bmt-limits">
                     <Single>90</Single>
@@ -2258,6 +2288,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2321,6 +2352,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2354,7 +2386,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>-0.04868854</X>
-                    <Y>2.760101E-05</Y>
+                    <Y>2.760623E-05</Y>
                     <Z>-1.620554E-09</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -2379,8 +2411,10 @@
                 <Skin name="Al-Thunder" id="1486627734" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">0</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="bmt-auto-brake">True</Boolean>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Single key="bmt-WW2TurretSize">1</Single>
                 <Single key="bmt-WW2Depth">2.1</Single>
@@ -2403,6 +2437,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2422,6 +2457,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2441,6 +2477,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2460,6 +2497,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2479,6 +2517,7 @@
                 <Skin name="Al-Taupe" id="1187758603" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2498,6 +2537,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2517,6 +2557,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2536,6 +2577,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2568,12 +2610,12 @@
                 </Vector3>
                 <Vector3 key="start-rotation">
                     <X>276.022</X>
-                    <Y>21.39357</Y>
+                    <Y>21.39358</Y>
                     <Z>336.4886</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>276.022</X>
-                    <Y>21.39357</Y>
+                    <Y>21.39358</Y>
                     <Z>336.4886</Z>
                 </Vector3>
             </Data>
@@ -2596,7 +2638,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>0.159777</X>
-                    <Y>8.346757E-08</Y>
+                    <Y>8.346763E-08</Y>
                     <Z>2.555863E-08</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -2634,8 +2676,8 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-position">
-                    <X>-2.146107E-07</X>
-                    <Y>1.350214</Y>
+                    <X>-2.146109E-07</X>
+                    <Y>1.350215</Y>
                     <Z>-0.0001009305</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -2660,6 +2702,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2679,6 +2722,7 @@
                 <Skin name="Al-Taupe" id="1187758603" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2698,6 +2742,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2717,6 +2762,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2736,6 +2782,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2755,6 +2802,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2774,6 +2822,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2793,6 +2842,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2812,6 +2862,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2831,6 +2882,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2850,6 +2902,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2869,6 +2922,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2888,6 +2942,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">10</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2917,8 +2972,9 @@
                     <String>Message=r-f4</String>
                     <String>Use=True</String>
                 </StringArray>
-                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Single key="bmt-rotation-speed">0.5</Single>
+                <Single key="bmt-tension">1</Single>
+                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Boolean key="bmt-uselimits">True</Boolean>
                 <SingleArray key="bmt-limits">
                     <Single>135</Single>
@@ -2938,6 +2994,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2957,6 +3014,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2976,6 +3034,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -2995,6 +3054,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3018,7 +3078,7 @@
                 <Single key="bmt-AxlePosX">-0.7</Single>
                 <Single key="bmt-Axle Position Y">0</Single>
                 <Single key="bmt-Axle Pitch">0</Single>
-                <Single key="bmt-PropellerSize">0.7</Single>
+                <Single key="bmt-PropellerSize">0.55</Single>
                 <String key="bmt-TransformHolder" />
                 <Boolean key="flipped">False</Boolean>
             </Data>
@@ -3040,8 +3100,8 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-position">
-                    <X>-9.13644E-12</X>
-                    <Y>4.750635E-09</Y>
+                    <X>-9.136441E-12</X>
+                    <Y>4.750636E-09</Y>
                     <Z>1.776357E-16</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -3158,6 +3218,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3195,6 +3256,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3214,6 +3276,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3259,6 +3322,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3304,6 +3368,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3323,6 +3388,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3342,6 +3408,7 @@
                 <Skin name="Al-Shadow" id="950405838" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3361,6 +3428,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3380,6 +3448,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3498,6 +3567,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3553,6 +3623,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3605,6 +3676,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3717,8 +3789,8 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-position">
-                    <X>-9.139838E-12</X>
-                    <Y>4.750636E-09</Y>
+                    <X>-9.139841E-12</X>
+                    <Y>4.750637E-09</Y>
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -3750,8 +3822,8 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-position">
-                    <X>-9.139843E-12</X>
-                    <Y>4.750639E-09</Y>
+                    <X>-9.139847E-12</X>
+                    <Y>4.750641E-09</Y>
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -3776,6 +3848,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">10</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3894,6 +3967,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3946,6 +4020,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3965,6 +4040,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -3984,6 +4060,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4069,6 +4146,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4092,7 +4170,7 @@
                 <Single key="bmt-AxlePosX">0.7</Single>
                 <Single key="bmt-Axle Position Y">0</Single>
                 <Single key="bmt-Axle Pitch">0</Single>
-                <Single key="bmt-PropellerSize">0.7</Single>
+                <Single key="bmt-PropellerSize">0.55</Single>
                 <String key="bmt-TransformHolder" />
                 <Boolean key="flipped">False</Boolean>
             </Data>
@@ -4147,6 +4225,7 @@
                 <Skin name="Al-Taupe" id="1187758603" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4166,6 +4245,7 @@
                 <Skin name="Al-Taupe" id="1187758603" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4185,6 +4265,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4204,6 +4285,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4223,6 +4305,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4242,6 +4325,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4327,6 +4411,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4478,6 +4563,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4497,6 +4583,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4516,6 +4603,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4535,6 +4623,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4554,6 +4643,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4639,6 +4729,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4658,6 +4749,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4677,6 +4769,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4769,9 +4862,9 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-position">
-                    <X>3.113906E-07</X>
-                    <Y>4.819691E-07</Y>
-                    <Z>-1.772253</Z>
+                    <X>3.11391E-07</X>
+                    <Y>4.819697E-07</Y>
+                    <Z>-1.772255</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
                     <X>-1.688566E-06</X>
@@ -4795,6 +4888,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4814,6 +4908,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4833,6 +4928,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4852,6 +4948,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4871,6 +4968,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4890,6 +4988,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4909,6 +5008,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4928,6 +5028,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -4980,6 +5081,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -5131,6 +5233,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -5150,6 +5253,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -5169,6 +5273,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -5188,6 +5293,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -5207,6 +5313,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <StringArray key="bmt-attach">V</StringArray>
                 <StringArray key="bmt-detach">V</StringArray>
                 <Boolean key="bmt-grab-static">False</Boolean>
                 <Boolean key="bmt-grab-static-only">False</Boolean>
@@ -5525,8 +5632,10 @@
                 <Skin name="Al-Thunder" id="1486627734" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">0</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="bmt-auto-brake">True</Boolean>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Single key="bmt-WW2TurretSize">1</Single>
                 <Single key="bmt-WW2Depth">2.098928</Single>
@@ -5556,12 +5665,12 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-position">
-                    <X>2.038776E-07</X>
-                    <Y>1.326123E-07</Y>
-                    <Z>-2.059499</Z>
+                    <X>2.038775E-07</X>
+                    <Y>1.326122E-07</Y>
+                    <Z>-2.059498</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
-                    <X>2.273984E-07</X>
+                    <X>2.273939E-07</X>
                     <Y>180</Y>
                     <Z>250.3922</Z>
                 </Vector3>
@@ -5595,8 +5704,8 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-position">
-                    <X>-0.2430978</X>
-                    <Y>7.193601E-08</Y>
+                    <X>-0.2430979</X>
+                    <Y>7.193604E-08</Y>
                     <Z>-2.184367E-08</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -5621,6 +5730,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -5640,6 +5750,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -5669,8 +5780,9 @@
                     <String>Message=d-f1</String>
                     <String>Use=True</String>
                 </StringArray>
-                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Single key="bmt-rotation-speed">1</Single>
+                <Single key="bmt-tension">1</Single>
+                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Boolean key="bmt-uselimits">True</Boolean>
                 <SingleArray key="bmt-limits">
                     <Single>90</Single>
@@ -5704,7 +5816,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>-0.04868854</X>
-                    <Y>2.759059E-05</Y>
+                    <Y>2.75958E-05</Y>
                     <Z>-3.258917E-09</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -5844,8 +5956,9 @@
                     <String>Message=r-f1</String>
                     <String>Use=True</String>
                 </StringArray>
-                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Single key="bmt-rotation-speed">0.5</Single>
+                <Single key="bmt-tension">1</Single>
+                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Boolean key="bmt-uselimits">True</Boolean>
                 <SingleArray key="bmt-limits">
                     <Single>135</Single>
@@ -6114,8 +6227,10 @@
                 <Skin name="Al-Thunder" id="1486627734" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">0</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="bmt-auto-brake">True</Boolean>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Single key="bmt-WW2TurretSize">1</Single>
                 <Single key="bmt-WW2Depth">2.5</Single>
@@ -6145,12 +6260,12 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-position">
-                    <X>2.038773E-07</X>
-                    <Y>1.326121E-07</Y>
-                    <Z>-2.059496</Z>
+                    <X>2.038771E-07</X>
+                    <Y>1.32612E-07</Y>
+                    <Z>-2.059494</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
-                    <X>2.273984E-07</X>
+                    <X>2.273939E-07</X>
                     <Y>180</Y>
                     <Z>250.3922</Z>
                 </Vector3>
@@ -6184,8 +6299,8 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-position">
-                    <X>-0.2430981</X>
-                    <Y>7.193608E-08</Y>
+                    <X>-0.2430982</X>
+                    <Y>7.193614E-08</Y>
                     <Z>-2.184367E-08</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -6210,6 +6325,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -6229,6 +6345,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -6258,8 +6375,9 @@
                     <String>Message=d-f2</String>
                     <String>Use=True</String>
                 </StringArray>
-                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Single key="bmt-rotation-speed">1</Single>
+                <Single key="bmt-tension">1</Single>
+                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Boolean key="bmt-uselimits">True</Boolean>
                 <SingleArray key="bmt-limits">
                     <Single>90</Single>
@@ -6293,7 +6411,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>-0.04868854</X>
-                    <Y>2.75958E-05</Y>
+                    <Y>2.760101E-05</Y>
                     <Z>-3.258917E-09</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -6433,8 +6551,9 @@
                     <String>Message=r-f2</String>
                     <String>Use=True</String>
                 </StringArray>
-                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Single key="bmt-rotation-speed">0.5</Single>
+                <Single key="bmt-tension">1</Single>
+                <Boolean key="bmt-autoReturn">False</Boolean>
                 <Boolean key="bmt-uselimits">True</Boolean>
                 <SingleArray key="bmt-limits">
                     <Single>135</Single>
@@ -6513,6 +6632,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -6532,6 +6652,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -6551,6 +6672,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -6570,6 +6692,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -6589,6 +6712,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -6608,6 +6732,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -6659,7 +6784,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>-0.04868874</X>
-                    <Y>2.764822E-05</Y>
+                    <Y>2.765594E-05</Y>
                     <Z>-5.419269E-09</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -6698,7 +6823,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>-0.04868874</X>
-                    <Y>2.76405E-05</Y>
+                    <Y>2.764822E-05</Y>
                     <Z>-5.419269E-09</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -6885,7 +7010,7 @@
                 <Single key="bmt-AxlePosX">0</Single>
                 <Single key="bmt-Axle Position Y">0.5</Single>
                 <Single key="bmt-Axle Pitch">0</Single>
-                <Single key="bmt-PropellerSize">0.8</Single>
+                <Single key="bmt-PropellerSize">0.75</Single>
                 <String key="bmt-TransformHolder" />
                 <Boolean key="flipped">False</Boolean>
             </Data>
@@ -6979,12 +7104,12 @@
                 </Vector3>
                 <Vector3 key="start-rotation">
                     <X>353.4012</X>
-                    <Y>5.162988</Y>
+                    <Y>5.162987</Y>
                     <Z>273.0046</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>353.4012</X>
-                    <Y>5.162988</Y>
+                    <Y>5.162987</Y>
                     <Z>273.0046</Z>
                 </Vector3>
             </Data>
@@ -7039,8 +7164,8 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-position">
-                    <X>-6.546996E-12</X>
-                    <Y>4.750655E-09</Y>
+                    <X>-6.547001E-12</X>
+                    <Y>4.750658E-09</Y>
                     <Z>9.706869E-17</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -7111,12 +7236,12 @@
                 </Vector3>
                 <Vector3 key="start-rotation">
                     <X>275.0159</X>
-                    <Y>5.326865</Y>
+                    <Y>5.326851</Y>
                     <Z>258.6815</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>275.0159</X>
-                    <Y>5.326865</Y>
+                    <Y>5.326851</Y>
                     <Z>258.6815</Z>
                 </Vector3>
             </Data>
@@ -7296,6 +7421,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -7315,6 +7441,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -7367,6 +7494,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -7436,8 +7564,8 @@
                     <Z>313.3478</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
-                    <X>64.75896</X>
-                    <Y>5.055573</Y>
+                    <X>64.75895</X>
+                    <Y>5.055569</Y>
                     <Z>46.6521</Z>
                 </Vector3>
             </Data>
@@ -7452,6 +7580,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -7471,6 +7600,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -7490,6 +7620,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -7509,6 +7640,7 @@
                 <Skin name="Al-Red" id="705208496" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -7528,6 +7660,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -7547,6 +7680,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -7566,6 +7700,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -7585,6 +7720,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -7604,6 +7740,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -7623,6 +7760,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -7744,6 +7882,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -7815,6 +7954,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <StringArray key="bmt-attach">V</StringArray>
                 <StringArray key="bmt-detach">V</StringArray>
                 <Boolean key="bmt-grab-static">False</Boolean>
                 <Boolean key="bmt-grab-static-only">False</Boolean>
@@ -7833,6 +7973,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <StringArray key="bmt-attach">V</StringArray>
                 <StringArray key="bmt-detach">V</StringArray>
                 <Boolean key="bmt-grab-static">False</Boolean>
                 <Boolean key="bmt-grab-static-only">False</Boolean>
@@ -7851,6 +7992,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <StringArray key="bmt-attach">V</StringArray>
                 <StringArray key="bmt-detach">V</StringArray>
                 <Boolean key="bmt-grab-static">False</Boolean>
                 <Boolean key="bmt-grab-static-only">False</Boolean>
@@ -7869,6 +8011,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <StringArray key="bmt-attach">V</StringArray>
                 <StringArray key="bmt-detach">V</StringArray>
                 <Boolean key="bmt-grab-static">False</Boolean>
                 <Boolean key="bmt-grab-static-only">False</Boolean>
@@ -7982,6 +8125,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -8201,7 +8345,7 @@
                 </Vector3>
                 <Vector3 key="start-rotation">
                     <X>59.06369</X>
-                    <Y>0.2885621</Y>
+                    <Y>0.2885722</Y>
                     <Z>105.4417</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
@@ -8233,14 +8377,14 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
-                    <X>59.06376</X>
+                    <X>59.06377</X>
                     <Y>179.7116</Y>
                     <Z>344.5854</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>300.9363</X>
                     <Y>359.7115</Y>
-                    <Z>15.41454</Z>
+                    <Z>15.41455</Z>
                 </Vector3>
             </Data>
         </Block>
@@ -8320,6 +8464,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -8353,7 +8498,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>-0.04869043</X>
-                    <Y>2.76719E-05</Y>
+                    <Y>2.768367E-05</Y>
                     <Z>-5.077653E-09</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -8525,7 +8670,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>-0.04868874</X>
-                    <Y>2.764822E-05</Y>
+                    <Y>2.765594E-05</Y>
                     <Z>-5.419269E-09</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -8618,7 +8763,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>-0.04868874</X>
-                    <Y>2.765594E-05</Y>
+                    <Y>2.766366E-05</Y>
                     <Z>-5.419269E-09</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -8696,7 +8841,7 @@
                     <Z>0</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
-                    <X>89.94405</X>
+                    <X>89.93745</X>
                     <Y>112.5321</Y>
                     <Z>0</Z>
                 </Vector3>
@@ -8763,6 +8908,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -8782,6 +8928,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -8801,6 +8948,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -8904,8 +9052,10 @@
                 <Skin name="Al-Thunder" id="1486627734" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">0.1</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="bmt-auto-brake">True</Boolean>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Single key="bmt-WW2TurretSize">1</Single>
                 <Single key="bmt-WW2Depth">1.55</Single>
@@ -8942,7 +9092,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>-0.04869125</X>
-                    <Y>2.766247E-05</Y>
+                    <Y>2.76722E-05</Y>
                     <Z>-6.124248E-09</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -8980,6 +9130,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -8999,6 +9150,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9084,6 +9236,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9103,6 +9256,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9122,6 +9276,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9185,6 +9340,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9204,6 +9360,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9223,6 +9380,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9473,6 +9631,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <String key="bmt-TransformHolder" />
             </Data>
         </Block>
@@ -9486,6 +9645,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <String key="bmt-TransformHolder" />
             </Data>
         </Block>
@@ -9517,6 +9677,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <String key="bmt-TransformHolder" />
             </Data>
         </Block>
@@ -9530,6 +9691,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <String key="bmt-TransformHolder" />
             </Data>
         </Block>
@@ -9543,6 +9705,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <String key="bmt-TransformHolder" />
             </Data>
         </Block>
@@ -9556,6 +9719,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9575,6 +9739,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9594,6 +9759,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9613,8 +9779,10 @@
                 <Skin name="Al-Thunder" id="1486627734" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-speed">0.1</Single>
                 <Single key="bmt-acceleration">Infinity</Single>
+                <Boolean key="bmt-auto-brake">True</Boolean>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Single key="bmt-WW2TurretSize">1</Single>
                 <Single key="bmt-WW2Depth">1.55</Single>
@@ -9663,6 +9831,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <String key="bmt-TransformHolder" />
             </Data>
         </Block>
@@ -9775,6 +9944,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9794,6 +9964,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9813,6 +9984,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9845,6 +10017,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9864,6 +10037,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -9930,8 +10104,8 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>-0.04868929</X>
-                    <Y>2.766504E-05</Y>
-                    <Z>-3.041228E-08</Z>
+                    <Y>2.767485E-05</Y>
+                    <Z>-3.042186E-08</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
                     <X>6.830189E-06</X>
@@ -10001,6 +10175,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10086,6 +10261,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <String key="bmt-TransformHolder" />
             </Data>
         </Block>
@@ -10099,6 +10275,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <String key="bmt-TransformHolder" />
             </Data>
         </Block>
@@ -10196,6 +10373,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10215,6 +10393,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10234,6 +10413,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10261,7 +10441,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>-0.1999997</X>
-                    <Y>4.257474E-08</Y>
+                    <Y>4.683222E-08</Y>
                     <Z>3.352761E-06</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -10286,6 +10466,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10473,7 +10654,7 @@
                 <Single key="bmt-charge">1</Single>
                 <Color key="bmt-colour">
                     <R>1</R>
-                    <G>0.3</G>
+                    <G>0.2980392</G>
                     <B>0</B>
                 </Color>
                 <Boolean key="bmt-AsChimney">True</Boolean>
@@ -10559,6 +10740,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10578,6 +10760,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10597,6 +10780,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10616,6 +10800,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10635,6 +10820,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10654,6 +10840,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10673,6 +10860,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10692,6 +10880,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10711,6 +10900,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10730,6 +10920,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10757,7 +10948,7 @@
                 </Vector3>
                 <Vector3 key="end-position">
                     <X>-2.142859</X>
-                    <Y>-1.194263E-09</Y>
+                    <Y>-1.194276E-09</Y>
                     <Z>-5.364423E-08</Z>
                 </Vector3>
                 <Vector3 key="start-rotation">
@@ -10893,6 +11084,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -10996,6 +11188,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -11082,12 +11275,12 @@
                 </Vector3>
                 <Vector3 key="start-rotation">
                     <X>290.0091</X>
-                    <Y>89.9422</Y>
+                    <Y>89.94221</Y>
                     <Z>270.0544</Z>
                 </Vector3>
                 <Vector3 key="end-rotation">
                     <X>290.0091</X>
-                    <Y>89.9422</Y>
+                    <Y>89.94221</Y>
                     <Z>270.0544</Z>
                 </Vector3>
             </Data>
@@ -11102,6 +11295,7 @@
                 <Skin name="Al-Taupe" id="1187758603" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -11121,6 +11315,7 @@
                 <Skin name="Al-Taupe" id="1187758603" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -11171,6 +11366,7 @@
             </Transform>
             <Data>
                 <StringArray key="bmt-Switch Target">LeftShift</StringArray>
+                <Boolean key="bmt-IFF">True</Boolean>
                 <String key="bmt-TransformHolder" />
                 <Boolean key="flipped">False</Boolean>
             </Data>
@@ -11299,6 +11495,7 @@
                 <Skin name="Al-Grey" id="808852499" />
             </Settings>
             <Data>
+                <Integer key="bmt-version">0</Integer>
                 <Single key="bmt-WW2Thickness">20</Single>
                 <Integer key="bmt-Wood Type">0</Integer>
                 <String key="bmt-HangarGroup">0</String>
@@ -11608,6 +11805,25 @@
                     <Single>180</Single>
                     <Single>180</Single>
                 </SingleArray>
+                <String key="bmt-TransformHolder" />
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1005" guid="db8863b0-f1ce-4d87-a31a-ca53cc902117" modId="24db7500-6caa-471c-8ba6-c43c0be5fd1d" localId="6">
+            <Transform>
+                <Position x="-3.109999" y="-0.8849964" z="-1.257211E-06" />
+                <Rotation x="0.5" y="-0.4999999" z="-0.5000001" w="-0.5000001" />
+                <Scale x="1.2" y="2" z="1.2" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-Forward">W</StringArray>
+                <StringArray key="bmt-Backward">S</StringArray>
+                <Single key="bmt-EngineThrust">2880</Single>
+                <Single key="bmt-AxleLength">0</Single>
+                <Single key="bmt-AxlePosX">0</Single>
+                <Single key="bmt-Axle Position Y">0.5</Single>
+                <Single key="bmt-Axle Pitch">0</Single>
+                <Single key="bmt-PropellerSize">0.75</Single>
                 <String key="bmt-TransformHolder" />
                 <Boolean key="flipped">False</Boolean>
             </Data>

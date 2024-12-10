@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="8">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="5.05" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods">7d08695e-92b4-4978-8dd3-579d7d83a652~L~0.0.1~Modern</StringArray>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="82006b9d-3e2b-46b1-956a-8020c1dd9f1b">
+            <Transform>
+                <Position x="0" y="-0.5" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="1000" guid="39a64a8c-f7e5-462a-9f12-135ccc8a60f0" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="1">
+            <Transform>
+                <Position x="0" y="0.5" z="0" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <String key="bmt-CW">;(40.0, 19.0)-(40.0, 26.0);(23.0, 37.0)-(27.0, 37.0);(27.0, 37.0)-(27.0, 26.0);(27.0, 26.0)-(23.0, 26.0);(40.0, 17.0)-(40.0, 17.0);(57.0, 11.0)-(57.0, 11.0);(55.0, 24.0)-(55.0, 24.0);(49.0, 6.0)-(42.0, 9.0);(40.0, 6.0)-(41.0, 9.0)</String>
+                <Boolean key="bmt-CreateToggle">False</Boolean>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1012" guid="0750d699-00f7-4c66-a9dc-54e03dbe52b6" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="13">
+            <Transform>
+                <Position x="0.5" y="0.5500002" z="1.192093E-07" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <String key="bmt-Receive" />
+                <String key="bmt-Send">114</String>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1012" guid="df6cfd55-b3bf-4626-a32a-0118cf08cffb" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="13">
+            <Transform>
+                <Position x="-0.5" y="0.5500002" z="1.192093E-07" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <String key="bmt-Receive">114</String>
+                <String key="bmt-Send">514</String>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1010" guid="f24494ae-928d-46bc-bafe-54d62e4b37e2" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="11">
+            <Transform>
+                <Position x="1" y="0.5500002" z="1.77" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Integer key="bmt-Type">1</Integer>
+                <Integer key="bmt-Bool">1</Integer>
+                <Single key="bmt-Float">233</Single>
+                <Single key="bmt-Vector2_X">0</Single>
+                <Single key="bmt-Vector2_Y">0</Single>
+                <Single key="bmt-Vector3_X">0</Single>
+                <Single key="bmt-Vector3_Y">0</Single>
+                <Single key="bmt-Vector3_Z">0</Single>
+                <Single key="bmt-Quaternion_X">0</Single>
+                <Single key="bmt-Quaternion_Y">0</Single>
+                <Single key="bmt-Quaternion_Z">0</Single>
+                <Single key="bmt-Quaternion_W">0</Single>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1012" guid="f25c1a65-3b5d-4a53-a81a-c8e3ed5531cb" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="13">
+            <Transform>
+                <Position x="-1.5" y="0.5500002" z="1.192093E-07" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <String key="bmt-Receive">514</String>
+                <String key="bmt-Send" />
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1010" guid="f4854838-965b-46b0-9547-94749e4d995c" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="11">
+            <Transform>
+                <Position x="0.5" y="0.5500002" z="1.77" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Integer key="bmt-Type">1</Integer>
+                <Integer key="bmt-Bool">1</Integer>
+                <Single key="bmt-Float">666</Single>
+                <Single key="bmt-Vector2_X">0</Single>
+                <Single key="bmt-Vector2_Y">0</Single>
+                <Single key="bmt-Vector3_X">0</Single>
+                <Single key="bmt-Vector3_Y">0</Single>
+                <Single key="bmt-Vector3_Z">0</Single>
+                <Single key="bmt-Quaternion_X">0</Single>
+                <Single key="bmt-Quaternion_Y">0</Single>
+                <Single key="bmt-Quaternion_Z">0</Single>
+                <Single key="bmt-Quaternion_W">0</Single>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1005" guid="7a419440-fc74-4cc2-8b1c-60db94345ebf" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="6">
+            <Transform>
+                <Position x="0.49" y="0.5500002" z="1.03" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

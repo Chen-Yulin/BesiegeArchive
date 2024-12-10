@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="screen">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="5.05" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods">7d08695e-92b4-4978-8dd3-579d7d83a652~L~0.0.3~Modern</StringArray>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="53c1c413-f9f0-4942-b484-c442e99e0968">
+            <Transform>
+                <Position x="0" y="0" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="1024" guid="d5e1486c-4b08-4fe7-9dd7-1fdf2d2714e7" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="25">
+            <Transform>
+                <Position x="-0.5" y="0" z="0" />
+                <Rotation x="0" y="-0.7071068" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="bmt-OnBoard">False</Boolean>
+                <String key="bmt-Channel">1</String>
+                <Single key="bmt-ratio">1.6</Single>
+                <Boolean key="flipped">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="1022" guid="6b116dfb-57a4-4491-a9d1-945aa5ba93f6" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="23">
+            <Transform>
+                <Position x="0" y="0" z="-0.5" />
+                <Rotation x="0" y="1" z="0" w="0" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="bmt-OnBoard">False</Boolean>
+                <String key="bmt-P Channel" />
+                <String key="bmt-Channel">1</String>
+                <Single key="bmt-Width">1920</Single>
+                <Single key="bmt-Height">1080</Single>
+                <Single key="bmt-FOV">60</Single>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

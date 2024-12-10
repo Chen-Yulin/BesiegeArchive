@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="key">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="5.05" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods">7d08695e-92b4-4978-8dd3-579d7d83a652~L~0.0.1~Modern</StringArray>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="e46f06c3-f68b-4e95-b5c8-b1d2860964ad">
+            <Transform>
+                <Position x="0" y="-1" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="1000" guid="9905f5ea-66fd-4993-a511-76a8482a1ae9" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="1">
+            <Transform>
+                <Position x="0" y="0.5" z="0" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <String key="bmt-CW">;(31.0, 32.0)-(31.0, 36.0)</String>
+                <Boolean key="bmt-CreateToggle">False</Boolean>
+                <Boolean key="bmt-UndoWire">False</Boolean>
+                <Boolean key="bmt-RedoWire">False</Boolean>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1009" guid="95080447-66b3-4ae4-9dae-eedef22ce510" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="10">
+            <Transform>
+                <Position x="-0.02" y="0.5500002" z="0.2800001" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="bmt-OnBoard">True</Boolean>
+                <String key="bmt-Channel" />
+                <StringArray key="bmt-Switch Key">T</StringArray>
+                <Boolean key="bmt-Default On">False</Boolean>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1021" guid="4017ba2d-1d28-4614-920b-3715406b53f0" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="22">
+            <Transform>
+                <Position x="-0.02" y="0.5500002" z="-0.5599998" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="bmt-OnBoard">True</Boolean>
+                <String key="bmt-Channel" />
+                <StringArray key="bmt-Target Key">C</StringArray>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="68" guid="8a1614d3-e1ef-4d51-ba76-d044a99185a0">
+            <Transform>
+                <Position x="0" y="0.5500002" z="1.58" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate-A">C</StringArray>
+                <StringArray key="bmt-activate-B">I</StringArray>
+                <Integer key="bmt-Gate">1</Integer>
+                <Boolean key="bmt-toggle-mode">False</Boolean>
+                <Boolean key="bmt-inverted">True</Boolean>
+                <StringArray key="bmt-emulate">None</StringArray>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>

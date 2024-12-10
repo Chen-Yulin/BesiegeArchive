@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" bsgVersion="1.3" name="7">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0" y="5.05" z="0" />
+        <Rotation x="0" y="0" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <StringArray key="requiredMods">7d08695e-92b4-4978-8dd3-579d7d83a652~L~0.0.1~Modern</StringArray>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="e5c6db31-86d7-48f8-8a19-2f89ffd7a47c">
+            <Transform>
+                <Position x="0" y="0" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="1000" guid="fab1196c-87ac-43a2-8196-698a1e98c576" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="1">
+            <Transform>
+                <Position x="0" y="1" z="0" />
+                <Rotation x="-0.7071068" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <String key="bmt-CW">;(31.0, 27.0)-(31.0, 30.0);(31.0, 27.0)-(31.0, 30.0);(31.0, 27.0)-(31.0, 30.0);(31.0, 27.0)-(31.0, 30.0);(31.0, 27.0)-(31.0, 30.0);(31.0, 27.0)-(31.0, 30.0);(31.0, 27.0)-(31.0, 30.0);(31.0, 27.0)-(31.0, 30.0);(32.0, 40.0)-(32.0, 43.0);(63.0, 63.0)-(63.0, 63.0)</String>
+                <Boolean key="bmt-CreateToggle">False</Boolean>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1011" guid="dfdaab4b-0040-41e9-b600-ca6fc7e523f1" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="12">
+            <Transform>
+                <Position x="-0.03" y="1.05" z="0.5600001" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="bmt-OnBoard">True</Boolean>
+                <String key="bmt-Channel">114</String>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1006" guid="b535c89c-c414-4a0b-a10c-71a479a3146d" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="7">
+            <Transform>
+                <Position x="-0.03" y="1.05" z="-0.2099999" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1012" guid="291cc9c4-66b5-466a-b4cc-96b96ec66923" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="13">
+            <Transform>
+                <Position x="-1.06" y="1.05" z="0.6200001" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <String key="bmt-Receive">114</String>
+                <String key="bmt-Send" />
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="1012" guid="c8d87a5c-396b-4645-8f66-8d7bfdaa174b" modId="7d08695e-92b4-4978-8dd3-579d7d83a652" localId="13">
+            <Transform>
+                <Position x="0.02999999" y="1.05" z="-0.9699998" />
+                <Rotation x="-0.7071067" y="0" z="0" w="0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <String key="bmt-Receive" />
+                <String key="bmt-Send">114</String>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>
